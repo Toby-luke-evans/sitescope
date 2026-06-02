@@ -8,7 +8,10 @@ point-in-polygon lookups.
 import json
 import logging
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
+
+ASSETS = Path(__file__).parent.parent.parent.parent / "assets"
 
 import httpx
 from shapely.geometry import Point, shape
@@ -69,9 +72,25 @@ class ParkingZoneInfo:
 # ---------------------------------------------------------------------------
 
 async def _fetch_all_records(resource_id: str, label: str) -> list[dict]:
-    """Fetch all records from a CKAN datastore resource, paginated."""
-    all_records: list[dict] = []
+    """Fetch all records from a CKAN datastore resource, paginated.
+    Falls back to local cache if available (for offline/faster startups).
+    """
+    cache_dir = ASSETS / "ckan-cache"
+    cache_name = {ZONING_RESOURCE: "zoning", HEIGHT_RESOURCE: "height",
+                  LOT_COVERAGE_RESOURCE: "coverage", PARKING_ZONE_RESOURCE: "parking"}.get(resource_id)
+    if cache_name:
+        cache_file = cache_dir / f"{cache_name}.json"
+        if cache_file.exists():
+            import time
+            t0 = time.time()
+            with open(cache_file) as f:
+                records = json.load(f)
+            if records:
+                logger.info("%s: loaded %d records from local cache (%.3fs)", label, len(records), time.time()-t0)
+                return records
 
+    # Fall back to CKAN API
+    all_records: list[dict] = []
     async with httpx.AsyncClient(timeout=60.0) as client:
         offset = 0
         while True:
@@ -84,10 +103,8 @@ async def _fetch_all_records(resource_id: str, label: str) -> list[dict]:
             resp.raise_for_status()
             result = resp.json().get("result", {})
             records = result.get("records", [])
-
             if not records:
                 break
-
             all_records.extend(records)
             offset += BATCH_SIZE
             logger.debug("%s: fetched %d records so far", label, len(all_records))

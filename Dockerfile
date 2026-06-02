@@ -17,6 +17,9 @@ RUN pip install --no-cache-dir -e /app/packages/zoning-core
 COPY packages/spatial-engine /app/packages/spatial-engine
 RUN pip install --no-cache-dir -e /app/packages/spatial-engine
 
+# Copy pre-cached spatial data (avoids ~2min CKAN download on every cold start)
+COPY packages/zoning-core/assets/ckan-cache /app/packages/zoning-core/assets/ckan-cache
+
 # Install backend dependencies
 COPY apps/zoning-report/backend/pyproject.toml ./
 RUN pip install --no-cache-dir fastapi uvicorn pydantic httpx reportlab python-multipart shapely pyproj numpy
