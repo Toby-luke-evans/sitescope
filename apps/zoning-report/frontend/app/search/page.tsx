@@ -219,12 +219,17 @@ export default function SearchPage() {
                       <>
                         <h4 className="text-sm font-semibold text-muted mt-4 mb-2">Bylaw References</h4>
                         <ul className="text-sm text-muted list-disc list-inside">
-                          {(Array.isArray(result.standards.bylaw_reference)
-                            ? result.standards.bylaw_reference
-                            : [result.standards.bylaw_reference]
-                          ).map((ref: string, i: number) => (
-                            <li key={i}>{ref}</li>
-                          ))}
+                          {Array.isArray(result.standards.bylaw_reference)
+                            ? result.standards.bylaw_reference.map((ref, i) => (
+                                <li key={i}>{String(ref)}</li>
+                              ))
+                            : typeof result.standards.bylaw_reference === "object"
+                              ? Object.entries(result.standards.bylaw_reference).map(([label, ref]) => (
+                                  <li key={label}>
+                                    <span className="capitalize">{label.replace(/_/g, " ")}</span>: {ref}
+                                  </li>
+                                ))
+                              : <li>{result.standards.bylaw_reference}</li>}
                         </ul>
                       </>
                     )}

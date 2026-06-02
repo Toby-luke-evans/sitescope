@@ -40,7 +40,7 @@ export interface StandardsData {
     plane_angle_deg: number | null;
     start_height_m: number | null;
   };
-  bylaw_reference: string[] | string;
+  bylaw_reference: string[] | string | Record<string, string>;
 }
 
 export interface ZoningResponse {
