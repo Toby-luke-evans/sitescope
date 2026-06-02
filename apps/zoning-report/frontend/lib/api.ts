@@ -53,6 +53,41 @@ export interface ZoningResponse {
   note?: string;
 }
 
+export interface ParcelSearchResult {
+  id: string;
+  address?: string;
+  lat: number;
+  lng: number;
+  zone_code?: string;
+  zn_string?: string;
+  zoning: ZoningData | null;
+  overlays: OverlaysData;
+  error?: string;
+}
+
+export interface AddressSearchResponse {
+  city: string;
+  query: string;
+  results: ParcelSearchResult[];
+  total: number;
+  error?: string;
+  note?: string;
+}
+
+export async function searchAddress(
+  query: string,
+  city: string = "toronto",
+  limit: number = 5
+): Promise<AddressSearchResponse> {
+  const res = await fetch(
+    `${API_BASE}/search/?city=${encodeURIComponent(city)}&q=${encodeURIComponent(query)}&limit=${limit}`
+  );
+  if (!res.ok) {
+    throw new Error(`Address search failed: ${res.status} ${res.statusText}`);
+  }
+  return res.json();
+}
+
 export async function lookupZoning(
   lat: number,
   lng: number,

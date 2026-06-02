@@ -20,6 +20,9 @@ RUN pip install --no-cache-dir -e /app/packages/zoning-core
 COPY packages/spatial-engine /app/packages/spatial-engine
 RUN pip install --no-cache-dir -e /app/packages/spatial-engine
 
+# Copy pre-cached spatial data (avoids ~2min CKAN download on cold start)
+COPY packages/zoning-core/assets/ckan-cache /app/packages/zoning-core/assets/ckan-cache
+
 # Copy app code
 COPY apps/zoning-report/backend /app/apps/zoning-report/backend
 ENV PYTHONPATH="/app/apps/zoning-report/backend/app:/app/packages/zoning-core/src:/app/packages/spatial-engine/src:${PYTHONPATH}"
