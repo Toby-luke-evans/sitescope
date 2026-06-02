@@ -5,6 +5,7 @@ from Toronto CKAN on startup. Builds Shapely STRtree indices for fast
 point-in-polygon lookups.
 """
 
+import asyncio
 import json
 import logging
 from dataclasses import dataclass, field
@@ -83,8 +84,9 @@ async def _fetch_all_records(resource_id: str, label: str) -> list[dict]:
         if cache_file.exists():
             import time
             t0 = time.time()
+            loop = asyncio.get_running_loop()
             with open(cache_file) as f:
-                records = json.load(f)
+                records = await loop.run_in_executor(None, json.load, f)
             if records:
                 logger.info("%s: loaded %d records from local cache (%.3fs)", label, len(records), time.time()-t0)
                 return records
