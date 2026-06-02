@@ -9,7 +9,9 @@ Page 4 — Disclaimer + Notes + Map reference
 """
 
 import io
+import json
 from datetime import datetime
+from xml.sax.saxutils import escape
 
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
@@ -120,6 +122,80 @@ def _fmt_pct(v) -> str:
     if v is None:
         return "—"
     return f"{v:.1f}%"
+
+
+def _labelize(key: str) -> str:
+    return key.replace("_", " ").title()
+
+
+def _fmt_value(v) -> str:
+    if v is None:
+        return "—"
+    if isinstance(v, bool):
+        return "Yes" if v else "No"
+    if isinstance(v, float):
+        return f"{v:.2f}".rstrip("0").rstrip(".")
+    if isinstance(v, (list, dict)):
+        return json.dumps(v, ensure_ascii=False, separators=(", ", ": "))
+    return str(v)
+
+
+def _p(text: str, style: ParagraphStyle) -> Paragraph:
+    return Paragraph(escape(text), style)
+
+
+def _append_full_development_standards(story: list, dev: dict | None) -> None:
+    """Append all categorized standards to the PDF story."""
+    if not dev:
+        return
+
+    story.append(Spacer(1, 24))
+    story.append(Paragraph("Full Zoning Analysis", _section_style()))
+    defaults = dev.get("defaults_used") or []
+    if defaults:
+        story.append(_p("Assumptions / data gaps", _label_style()))
+        for item in defaults:
+            story.append(_p(f"• {item}", _small_style()))
+        story.append(Spacer(1, 8))
+
+    for category in dev.get("categories") or []:
+        story.append(Paragraph(f"{escape(str(category.get('category_id', '')))}. {escape(str(category.get('category_name', '')))}", _section_style()))
+        rows = [["Standard", "Value", "Bylaw / Notes"]]
+        for key, standard in (category.get("standards") or {}).items():
+            value = standard.get("value") if isinstance(standard, dict) else standard
+            unit = standard.get("unit") if isinstance(standard, dict) else None
+            bylaw = standard.get("bylaw_ref") if isinstance(standard, dict) else None
+            note = standard.get("note") if isinstance(standard, dict) else None
+            is_default = standard.get("is_default") if isinstance(standard, dict) else False
+            value_text = _fmt_value(value)
+            if unit:
+                value_text = f"{value_text} {unit}"
+            notes = []
+            if bylaw:
+                notes.append(f"§{bylaw}")
+            if note:
+                notes.append(str(note))
+            if is_default:
+                notes.append("default/assumption")
+            rows.append([_labelize(key), value_text, "; ".join(notes) or "—"])
+
+        table = Table(rows, colWidths=[1.65 * inch, 2.0 * inch, 1.85 * inch], hAlign="LEFT", repeatRows=1)
+        table.setStyle(TableStyle([
+            ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+            ("FONTSIZE", (0, 0), (-1, -1), 7),
+            ("TEXTCOLOR", (0, 0), (-1, 0), CREAM),
+            ("BACKGROUND", (0, 0), (-1, 0), FADED),
+            ("TEXTCOLOR", (0, 1), (-1, -1), CREAM),
+            ("BACKGROUND", (0, 1), (-1, -1), DARK),
+            ("GRID", (0, 0), (-1, -1), 0.35, FADED),
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("TOPPADDING", (0, 0), (-1, -1), 5),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+            ("LEFTPADDING", (0, 0), (-1, -1), 6),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+        ]))
+        story.append(table)
+        story.append(Spacer(1, 10))
 
 
 def _draw_header(canvas, doc):
@@ -326,6 +402,11 @@ def build_zoning_pdf(data: dict) -> bytes:
                 story.append(Paragraph(f"• {ref}", _body_style()))
         else:
             story.append(Paragraph(str(refs), _body_style()))
+
+    _append_full_development_standards(
+        story,
+        data.get("development_standards") or standards.get("development_standards"),
+    )
 
     # ════════════════════════════════════════════════════════════════
     # PAGE 3 — Disclaimer

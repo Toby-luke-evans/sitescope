@@ -33,6 +33,26 @@ export interface SetbacksData {
   side_total_m: number | null;
 }
 
+export interface DevelopmentStandardValue {
+  value: unknown;
+  unit?: string | null;
+  bylaw_ref?: string | null;
+  is_default?: boolean;
+  note?: string | null;
+}
+
+export interface DevelopmentStandardCategory {
+  category_id: string;
+  category_name: string;
+  standards: Record<string, DevelopmentStandardValue>;
+}
+
+export interface DevelopmentStandards {
+  categories: DevelopmentStandardCategory[];
+  defaults_used: string[];
+  context_summary: Record<string, unknown>;
+}
+
 export interface StandardsData {
   setbacks: SetbacksData;
   angular_planes: {
@@ -41,6 +61,7 @@ export interface StandardsData {
     start_height_m: number | null;
   };
   bylaw_reference: string[] | string | Record<string, string>;
+  development_standards?: DevelopmentStandards | null;
 }
 
 export interface ZoningResponse {
@@ -48,6 +69,7 @@ export interface ZoningResponse {
   zoning: ZoningData | null;
   overlays: OverlaysData;
   standards: StandardsData;
+  development_standards?: DevelopmentStandards | null;
   city: string;
   error?: string;
   note?: string;

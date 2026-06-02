@@ -4,7 +4,86 @@ import { useState } from "react";
 import { Search, MapPin, Download, FileText, ArrowRight, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { searchAddress, lookupZoning, generatePdf, downloadPdf } from "@/lib/api";
-import type { ZoningResponse } from "@/lib/api";
+import type { DevelopmentStandards, DevelopmentStandardValue, ZoningResponse } from "@/lib/api";
+
+function labelize(key: string) {
+  return key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function formatPrimitive(value: unknown): string {
+  if (value === null || value === undefined) return "—";
+  if (typeof value === "boolean") return value ? "Yes" : "No";
+  if (typeof value === "number") return Number.isInteger(value) ? String(value) : value.toFixed(2).replace(/\.00$/, "");
+  if (typeof value === "string") return value;
+  return "";
+}
+
+function RenderUnknown({ value }: { value: unknown }) {
+  if (value === null || value === undefined || typeof value !== "object") {
+    return <span>{formatPrimitive(value)}</span>;
+  }
+  if (Array.isArray(value)) {
+    return (
+      <ul className="list-disc list-inside space-y-1">
+        {value.map((item, i) => <li key={i}><RenderUnknown value={item} /></li>)}
+      </ul>
+    );
+  }
+  return (
+    <div className="space-y-1">
+      {Object.entries(value as Record<string, unknown>).map(([key, val]) => (
+        <div key={key} className="grid grid-cols-[minmax(120px,1fr)_2fr] gap-3">
+          <span className="text-muted">{labelize(key)}</span>
+          <span className="text-fg"><RenderUnknown value={val} /></span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function FullDevelopmentStandards({ standards }: { standards: DevelopmentStandards }) {
+  return (
+    <div className="space-y-4">
+      {standards.defaults_used?.length > 0 && (
+        <div className="bg-amber-900/20 border border-amber-500/30 rounded-xl p-4 text-amber-200 text-sm">
+          <p className="font-semibold mb-2">Assumptions / data gaps</p>
+          <ul className="list-disc list-inside space-y-1">
+            {standards.defaults_used.map((item, i) => <li key={i}>{item}</li>)}
+          </ul>
+        </div>
+      )}
+
+      {standards.categories.map((category) => (
+        <details key={category.category_id} open={category.category_id < "D"} className="bg-surface-2 rounded-xl border border-faint overflow-hidden">
+          <summary className="cursor-pointer px-4 py-3 font-semibold text-fg flex items-center justify-between">
+            <span>{category.category_id}. {category.category_name}</span>
+            <span className="text-xs text-muted">{Object.keys(category.standards).length} standards</span>
+          </summary>
+          <div className="border-t border-faint divide-y divide-faint">
+            {Object.entries(category.standards).map(([key, standard]: [string, DevelopmentStandardValue]) => (
+              <div key={key} className="p-4 text-sm">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
+                  <div>
+                    <p className="font-medium text-fg">{labelize(key)}</p>
+                    {standard.note && <p className="text-muted text-xs mt-1">{standard.note}</p>}
+                  </div>
+                  <div className="text-right text-muted text-xs shrink-0">
+                    {standard.bylaw_ref && <p>Bylaw §{standard.bylaw_ref}</p>}
+                    {standard.is_default && <p className="text-amber-300">Default/assumption</p>}
+                  </div>
+                </div>
+                <div className="text-fg">
+                  <RenderUnknown value={standard.value} />
+                  {standard.unit && <span className="text-muted ml-1">{standard.unit}</span>}
+                </div>
+              </div>
+            ))}
+          </div>
+        </details>
+      ))}
+    </div>
+  );
+}
 
 export default function SearchPage() {
   const [address, setAddress] = useState("");
@@ -13,6 +92,7 @@ export default function SearchPage() {
   const [error, setError] = useState("");
   const [result, setResult] = useState<ZoningResponse | null>(null);
   const [pdfLoading, setPdfLoading] = useState(false);
+  const fullStandards = result?.development_standards || result?.standards?.development_standards || null;
 
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -198,7 +278,7 @@ export default function SearchPage() {
                     Development Standards
                   </h3>
                   <div className="bg-surface-2 rounded-xl p-4 mb-4">
-                    <h4 className="text-sm font-semibold text-muted mb-2">Setbacks</h4>
+                    <h4 className="text-sm font-semibold text-muted mb-2">Quick Summary</h4>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-sm">
                       {Object.entries(result.standards.setbacks).map(([key, val]) => (
                         <div key={key} className="flex justify-between gap-3">
@@ -214,26 +294,40 @@ export default function SearchPage() {
                         ? `Applies — ${result.standards.angular_planes.plane_angle_deg}° from ${result.standards.angular_planes.start_height_m}m`
                         : "Not applicable for this zone"}
                     </p>
-
-                    {result.standards.bylaw_reference && (
-                      <>
-                        <h4 className="text-sm font-semibold text-muted mt-4 mb-2">Bylaw References</h4>
-                        <ul className="text-sm text-muted list-disc list-inside">
-                          {Array.isArray(result.standards.bylaw_reference)
-                            ? result.standards.bylaw_reference.map((ref, i) => (
-                                <li key={i}>{String(ref)}</li>
-                              ))
-                            : typeof result.standards.bylaw_reference === "object"
-                              ? Object.entries(result.standards.bylaw_reference).map(([label, ref]) => (
-                                  <li key={label}>
-                                    <span className="capitalize">{label.replace(/_/g, " ")}</span>: {ref}
-                                  </li>
-                                ))
-                              : <li>{result.standards.bylaw_reference}</li>}
-                        </ul>
-                      </>
-                    )}
                   </div>
+
+                  {fullStandards ? (
+                    <div className="mb-6">
+                      <h3 className="font-semibold text-lg mb-3 flex items-center gap-2">
+                        <FileText size={18} className="text-accent" />
+                        Full Zoning Analysis
+                      </h3>
+                      <FullDevelopmentStandards standards={fullStandards} />
+                    </div>
+                  ) : (
+                    <div className="bg-amber-900/20 border border-amber-500/30 rounded-xl p-4 mb-6 text-amber-200 text-sm">
+                      Full HB-YOU standards engine did not return categorized standards for this parcel.
+                    </div>
+                  )}
+
+                  {result.standards.bylaw_reference && (
+                    <div className="bg-surface-2 rounded-xl p-4 mb-6">
+                      <h4 className="text-sm font-semibold text-muted mb-2">Bylaw References</h4>
+                      <ul className="text-sm text-muted list-disc list-inside">
+                        {Array.isArray(result.standards.bylaw_reference)
+                          ? result.standards.bylaw_reference.map((ref, i) => (
+                              <li key={i}>{String(ref)}</li>
+                            ))
+                          : typeof result.standards.bylaw_reference === "object"
+                            ? Object.entries(result.standards.bylaw_reference).map(([label, ref]) => (
+                                <li key={label}>
+                                  <span className="capitalize">{label.replace(/_/g, " ")}</span>: {ref}
+                                </li>
+                              ))
+                            : <li>{result.standards.bylaw_reference}</li>}
+                      </ul>
+                    </div>
+                  )}
 
                   <div className="flex gap-3">
                     <Link

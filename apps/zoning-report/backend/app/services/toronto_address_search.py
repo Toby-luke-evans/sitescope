@@ -98,6 +98,33 @@ def _parcel_from_feature(feature: dict[str, Any]) -> dict[str, Any] | None:
     }
 
 
+async def get_toronto_parcel_at_point(lat: float, lng: float) -> dict[str, Any] | None:
+    """Return the Toronto parcel containing a WGS84 point, if available."""
+    params: dict[str, Any] = {
+        "geometry": f"{lng},{lat}",
+        "geometryType": "esriGeometryPoint",
+        "inSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "OBJECTID,ADDRESS_NUMBER,LINEAR_NAME_FULL,FEATURE_TYPE",
+        "returnGeometry": "true",
+        "outSR": "4326",
+        "f": "json",
+        "resultRecordCount": 1,
+    }
+    async with httpx.AsyncClient(timeout=20.0) as client:
+        response = await client.get(ARCGIS_PARCEL_URL, params=params)
+        response.raise_for_status()
+        data = response.json()
+
+    if data.get("error"):
+        raise RuntimeError(data["error"].get("message") or "ArcGIS parcel point lookup failed")
+
+    features = data.get("features") or []
+    if not features:
+        return None
+    return _parcel_from_feature(features[0])
+
+
 async def search_toronto_parcels(query: str, limit: int = 10) -> list[dict[str, Any]]:
     """Search Toronto parcels by civic address."""
     number, street = parse_address(query)

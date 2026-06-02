@@ -3,14 +3,7 @@
 from fastapi import APIRouter, HTTPException, Query
 
 from app.services.toronto_address_search import search_toronto_parcels
-from zoning_core.bylaws import get_zone_params
-from zoning_core.spatial import (
-    is_loaded,
-    lookup_height,
-    lookup_lot_coverage,
-    lookup_parking_zone,
-    lookup_zone,
-)
+from app.services.zoning_payload import build_zoning_payload
 
 router = APIRouter()
 
@@ -33,7 +26,7 @@ async def reverse_search(
     lat: float = Query(..., description="Latitude (WGS84)"),
     lng: float = Query(..., description="Longitude (WGS84)"),
 ):
-    """Find the nearest/containing zoning parcel for a lat/lng coordinate."""
+    """Find the containing zoning parcel for a lat/lng coordinate."""
     if city.lower() == "toronto":
         return await _reverse_toronto(lat, lng)
     raise HTTPException(status_code=400, detail=f"City '{city}' not yet supported")
@@ -47,13 +40,30 @@ async def _search_toronto(q: str, limit: int) -> dict:
 
     results = []
     for parcel in parcels:
-        enriched = _build_search_result(parcel["lat"], parcel["lng"])
-        enriched.update({
+        enriched = build_zoning_payload(
+            lat=parcel["lat"],
+            lng=parcel["lng"],
+            city="toronto",
+            parcel=parcel,
+        )
+        result = {
             "id": parcel["id"],
             "address": parcel["address"],
+            "lat": parcel["lat"],
+            "lng": parcel["lng"],
             "geometry": parcel["geometry"],
-        })
-        results.append(enriched)
+            "zone_code": enriched.get("parcel", {}).get("zone_code"),
+            "zn_string": enriched.get("parcel", {}).get("zn_string"),
+            "zoning": enriched.get("zoning"),
+            "overlays": enriched.get("overlays"),
+            "standards": enriched.get("standards"),
+            "development_standards": enriched.get("development_standards"),
+        }
+        if enriched.get("error"):
+            result["error"] = enriched["error"]
+        if enriched.get("note"):
+            result["note"] = enriched["note"]
+        results.append(result)
 
     return {
         "city": "toronto",
@@ -64,85 +74,32 @@ async def _search_toronto(q: str, limit: int) -> dict:
 
 
 async def _reverse_toronto(lat: float, lng: float) -> dict:
-    if not is_loaded():
-        return {
-            "city": "toronto",
-            "lat": lat,
-            "lng": lng,
-            "results": [],
-            "error": "Zoning index not yet loaded. Try again in ~30 seconds.",
-        }
-
-    result = _build_search_result(lat, lng)
+    result = build_zoning_payload(lat=lat, lng=lng, city="toronto")
     if result.get("zoning") is None:
         return {
             "city": "toronto",
             "lat": lat,
             "lng": lng,
             "results": [],
-            "note": "No zoning data found at this location.",
+            "note": result.get("note") or "No zoning data found at this location.",
+            "error": result.get("error"),
         }
 
+    search_result = {
+        "id": result.get("parcel", {}).get("id") or f"tor_{lat:.7f}_{lng:.7f}",
+        "lat": lat,
+        "lng": lng,
+        "zone_code": result.get("parcel", {}).get("zone_code"),
+        "zn_string": result.get("parcel", {}).get("zn_string"),
+        "zoning": result.get("zoning"),
+        "overlays": result.get("overlays"),
+        "standards": result.get("standards"),
+        "development_standards": result.get("development_standards"),
+    }
     return {
         "city": "toronto",
         "lat": lat,
         "lng": lng,
-        "results": [result],
+        "results": [search_result],
         "total": 1,
     }
-
-
-def _build_search_result(lat: float, lng: float) -> dict:
-    """Build a search-result shape from a WGS84 point."""
-    base = {
-        "id": f"tor_{lat:.7f}_{lng:.7f}",
-        "lat": lat,
-        "lng": lng,
-        "zoning": None,
-        "overlays": {
-            "height": {"height_m": None, "storeys": None},
-            "lot_coverage": {"coverage_pct": None},
-            "parking_zone": {"zone": None},
-        },
-    }
-
-    if not is_loaded():
-        base["error"] = "Zoning index loading. Please retry in ~30 seconds."
-        return base
-
-    zone = lookup_zone(lng, lat)
-    height = lookup_height(lng, lat)
-    coverage = lookup_lot_coverage(lng, lat)
-    parking = lookup_parking_zone(lng, lat)
-
-    base["overlays"] = {
-        "height": {
-            "height_m": height.height_m if height else None,
-            "storeys": height.storeys if height else None,
-        },
-        "lot_coverage": {"coverage_pct": coverage},
-        "parking_zone": {"zone": parking},
-    }
-
-    if zone is None:
-        return base
-
-    params = get_zone_params("toronto", zone.zone_code)
-    max_height_m = height.height_m if height else params.get("max_height_m")
-    storeys = height.storeys if height else None
-    if not storeys and max_height_m:
-        storeys = int(max_height_m / 3.0)
-
-    base["zone_code"] = zone.zone_code
-    base["zn_string"] = zone.zn_string
-    base["zoning"] = {
-        "zone_code": zone.zone_code,
-        "zn_string": zone.zn_string,
-        "max_fsi": zone.fsi_total or params.get("max_fsi"),
-        "max_height_m": max_height_m,
-        "storeys": storeys,
-        "density": zone.density or params.get("density"),
-        "lot_coverage": zone.lot_coverage or coverage,
-        "stand_set": zone.stand_set,
-    }
-    return base
