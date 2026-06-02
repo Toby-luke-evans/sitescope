@@ -24,13 +24,13 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Startup: load spatial indices in background."""
-    from zoning_core.spatial import load_zoning_index
     asyncio.create_task(_load_zoning())
     yield
 
 
 async def _load_zoning():
     try:
+        from zoning_core.spatial import load_zoning_index
         await load_zoning_index()
         logger.info("Zoning spatial index loaded successfully.")
     except Exception as e:
