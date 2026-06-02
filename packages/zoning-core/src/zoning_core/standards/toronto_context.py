@@ -7,14 +7,16 @@ used when parcel/street/programme context is unavailable.
 
 from __future__ import annotations
 
-import math
 from dataclasses import dataclass, field
 from typing import Any
 
-from shapely.geometry import Polygon, shape
-
 from zoning_core.standards.toronto_rules_engine import ParcelContext
 from zoning_core.standards.zn_string_parser import ZnStringParsed
+
+try:
+    from geometry.parcel_context import build_parcel_spatial_context
+except Exception:  # pragma: no cover - package path fallback for isolated installs
+    build_parcel_spatial_context = None
 
 
 @dataclass
@@ -30,89 +32,48 @@ class ParcelGeometryContext:
     defaults_used: list[str] = field(default_factory=list)
 
 
-def _project_lonlat_to_local_m(coords: list[tuple[float, float]]) -> list[tuple[float, float]]:
-    """Approximate WGS84 lon/lat coordinates to local metres around parcel centroid."""
-    if not coords:
-        return []
-    mean_lat = sum(y for _, y in coords) / len(coords)
-    lat_scale = 111_320.0
-    lon_scale = 111_320.0 * math.cos(math.radians(mean_lat))
-    lon0 = sum(x for x, _ in coords) / len(coords)
-    lat0 = mean_lat
-    return [((x - lon0) * lon_scale, (y - lat0) * lat_scale) for x, y in coords]
+def geometry_metrics(
+    parcel_geometry: dict[str, Any] | None,
+    parcel_id: str = "unknown",
+    nearby_parcel_geometries: list[dict[str, Any]] | None = None,
+) -> ParcelGeometryContext:
+    """Calculate parcel area/frontage/depth/corner status from parcel topology."""
+    if build_parcel_spatial_context is None:
+        return ParcelGeometryContext(
+            parcel_id=parcel_id,
+            defaults_used=["Parcel spatial engine unavailable; parcel geometry metrics could not be calculated"],
+        )
 
-
-def geometry_metrics(parcel_geometry: dict[str, Any] | None, parcel_id: str = "unknown") -> ParcelGeometryContext:
-    """Estimate parcel area/frontage/depth from GeoJSON polygon geometry.
-
-    This is good enough for first-pass zoning standards. Exact frontage and depth
-    should later be replaced with the HB-YOU edge-classification service.
-    """
+    spatial = build_parcel_spatial_context(
+        parcel_geometry,
+        nearby_parcel_geometries=nearby_parcel_geometries,
+    )
     defaults: list[str] = []
-    if not parcel_geometry:
-        return ParcelGeometryContext(
-            parcel_id=parcel_id,
-            lot_area_sqm=500.0,
-            lot_frontage_m=15.0,
-            lot_depth_m=30.0,
-            defaults_used=[
-                "Parcel geometry: unavailable; using 500 sqm / 15 m frontage / 30 m depth defaults",
-            ],
-        )
+    for warning in spatial.warnings:
+        defaults.append(warning)
+    if spatial.frontage_source.startswith("estimated_"):
+        defaults.append(f"Frontage/depth source: {spatial.frontage_source}")
+    elif spatial.frontage_source != "unavailable":
+        defaults.append(f"Frontage source: {spatial.frontage_source}")
+    if spatial.corner_source == "unavailable_no_neighbour_topology":
+        defaults.append("Corner lot status: unavailable from parcel topology; not assumed")
+    elif spatial.corner_source != "unavailable":
+        defaults.append(f"Corner lot status source: {spatial.corner_source}")
+    if spatial.row_width_source == "unavailable":
+        if not any("Street ROW width" in item for item in defaults):
+            defaults.append("Street ROW width: unavailable from parcel/ROW topology; not defaulted")
+    else:
+        defaults.append(f"Street ROW width source: {spatial.row_width_source}")
 
-    try:
-        geom = shape(parcel_geometry)
-        if geom.is_empty:
-            raise ValueError("empty geometry")
-        if not geom.is_valid:
-            geom = geom.buffer(0)
-        if geom.geom_type == "MultiPolygon":
-            poly = max(list(getattr(geom, "geoms")), key=lambda p: p.area)
-        elif isinstance(geom, Polygon):
-            poly = geom
-        else:
-            raise ValueError(f"unsupported geometry type {geom.geom_type}")
-        coords = [(float(x), float(y)) for x, y, *_ in list(poly.exterior.coords)]
-        local = _project_lonlat_to_local_m(coords)
-        if len(local) < 4:
-            raise ValueError("too few polygon coordinates")
-
-        # Shoelace area in local metres.
-        area = abs(sum(
-            local[i][0] * local[(i + 1) % len(local)][1]
-            - local[(i + 1) % len(local)][0] * local[i][1]
-            for i in range(len(local))
-        )) / 2.0
-
-        xs = [p[0] for p in local]
-        ys = [p[1] for p in local]
-        bbox_w = max(xs) - min(xs)
-        bbox_h = max(ys) - min(ys)
-        short_side = max(min(bbox_w, bbox_h), 1.0)
-        long_side = max(max(bbox_w, bbox_h), short_side)
-
-        # Toronto lots are usually represented close to street-grid axes; this
-        # approximation is transparent and marked as derived.
-        defaults.append("Frontage/depth: estimated from parcel geometry bounding box")
-        return ParcelGeometryContext(
-            parcel_id=parcel_id,
-            lot_area_sqm=round(area, 1) if area > 0 else 500.0,
-            lot_frontage_m=round(short_side, 1),
-            lot_depth_m=round(long_side, 1),
-            is_corner_lot=False,
-            num_frontages=1,
-            defaults_used=defaults,
-        )
-    except Exception:
-        return ParcelGeometryContext(
-            parcel_id=parcel_id,
-            lot_area_sqm=500.0,
-            lot_frontage_m=15.0,
-            lot_depth_m=30.0,
-            defaults_used=[
-                "Parcel geometry: could not be parsed; using 500 sqm / 15 m frontage / 30 m depth defaults",
-            ],
-        )
+    return ParcelGeometryContext(
+        parcel_id=parcel_id,
+        lot_area_sqm=float(spatial.lot_area_sqm or 0.0),
+        lot_frontage_m=float(spatial.lot_frontage_m or 0.0),
+        lot_depth_m=float(spatial.lot_depth_m or 0.0),
+        is_corner_lot=bool(spatial.is_corner_lot) if spatial.is_corner_lot is not None else False,
+        num_frontages=int(spatial.num_frontages or (2 if spatial.is_corner_lot else 1)),
+        defaults_used=defaults,
+    )
 
 
 def build_toronto_context(
@@ -124,30 +85,30 @@ def build_toronto_context(
     max_height_m: float | None,
     lot_coverage_pct: float | None,
     parcel_geometry: dict[str, Any] | None = None,
+    nearby_parcel_geometries: list[dict[str, Any]] | None = None,
     abutting_zones: dict[str, str | None] | None = None,
     is_corner_lot: bool | None = None,
     row_width_m: float | None = None,
     building_type: str = "detached",
-    num_dwelling_units: int = 1,
+    num_dwelling_units: int = 0,
 ) -> tuple[ParcelContext, list[str]]:
     """Construct a Toronto rules-engine context from SiteScope lookup data."""
-    geom = geometry_metrics(parcel_geometry, parcel_id=parcel_id)
+    geom = geometry_metrics(parcel_geometry, parcel_id=parcel_id, nearby_parcel_geometries=nearby_parcel_geometries)
     defaults_used = list(geom.defaults_used)
 
     abut = abutting_zones or {}
     if not abut:
-        defaults_used.append("Abutting zones: unknown or approximate; neighbour-specific rules may be conservative")
+        defaults_used.append("Abutting zones: unavailable or approximate; neighbour-specific rules may need exact adjacency verification")
 
     if row_width_m is None:
-        row_width_m = 20.0
-        defaults_used.append("Street ROW width: 20.0 m default")
+        # Keep the internal value non-null for legacy rule functions, but do not
+        # label it as a defaulted fact. ROW-dependent outputs are flagged above
+        # and should be treated as data gaps until a ROW layer/opposite-parcel
+        # estimate is available.
+        row_width_m = 0.0
 
     if is_corner_lot is None:
         is_corner_lot = geom.is_corner_lot
-        defaults_used.append("Corner lot status: assumed false unless parcel context says otherwise")
-
-    defaults_used.append(f"Building type: {building_type} default")
-    defaults_used.append(f"Dwelling units: {num_dwelling_units} default")
 
     zone_label_d = parsed_zn.d if parsed_zn else None
     zone_label_f = parsed_zn.f if parsed_zn else None

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Search, MapPin, Download, FileText, ArrowRight, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { searchAddress, lookupZoning, generatePdf, downloadPdf } from "@/lib/api";
-import type { DevelopmentStandards, DevelopmentStandardValue, ZoningResponse } from "@/lib/api";
+import type { DevelopmentStandards, DevelopmentStandardValue, ParcelPropertyContext, ZoningResponse } from "@/lib/api";
 
 function labelize(key: string) {
   return key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -41,12 +41,58 @@ function RenderUnknown({ value }: { value: unknown }) {
   );
 }
 
+function PropertyFacts({ context }: { context: ParcelPropertyContext | null | undefined }) {
+  if (!context) return null;
+  const facts = [
+    ["Lot area", context.lot_area_sqm ? `${context.lot_area_sqm.toLocaleString()} m²` : "—"],
+    ["Lot frontage", context.lot_frontage_m ? `${context.lot_frontage_m} m` : "—"],
+    ["Lot depth", context.lot_depth_m ? `${context.lot_depth_m} m` : "—"],
+    ["Corner lot", context.is_corner_lot === null || context.is_corner_lot === undefined ? "Unknown" : context.is_corner_lot ? "Yes" : "No"],
+    ["Frontages", context.num_frontages ?? "—"],
+    ["Frontage bearing", context.frontage_bearing_deg ? `${context.frontage_bearing_deg}°` : "—"],
+    ["Street ROW", context.front_street_row_width_m ? `${context.front_street_row_width_m} m` : "Unavailable"],
+  ];
+
+  return (
+    <div className="bg-surface-2 rounded-xl p-4 mb-6 border border-faint">
+      <h3 className="font-semibold text-lg mb-3 flex items-center gap-2">
+        <MapPin size={18} className="text-accent" />
+        Property Facts
+      </h3>
+      <p className="text-muted text-xs mb-4">
+        Existing parcel context calculated from City parcel geometry. No proposed or current building assumptions are used here.
+      </p>
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
+        {facts.map(([label, value]) => (
+          <div key={String(label)} className="bg-surface rounded-lg p-3">
+            <p className="text-muted text-xs uppercase tracking-wider mb-1">{label}</p>
+            <p className="text-fg font-semibold">{String(value)}</p>
+          </div>
+        ))}
+      </div>
+      <details className="text-xs text-muted">
+        <summary className="cursor-pointer text-accent-2 mb-2">Sources / confidence</summary>
+        <div className="space-y-1">
+          {context.frontage_source && <p>Frontage: {context.frontage_source}</p>}
+          {context.depth_source && <p>Depth: {context.depth_source}</p>}
+          {context.corner_source && <p>Corner status: {context.corner_source}</p>}
+          {context.row_width_source && <p>ROW: {context.row_width_source}</p>}
+          {context.confidence && Object.keys(context.confidence).length > 0 && (
+            <p>Confidence: {Object.entries(context.confidence).map(([k, v]) => `${labelize(k)} ${(v * 100).toFixed(0)}%`).join(" · ")}</p>
+          )}
+          {context.warnings?.map((warning, i) => <p key={i} className="text-amber-300">{warning}</p>)}
+        </div>
+      </details>
+    </div>
+  );
+}
+
 function FullDevelopmentStandards({ standards }: { standards: DevelopmentStandards }) {
   return (
     <div className="space-y-4">
       {standards.defaults_used?.length > 0 && (
         <div className="bg-amber-900/20 border border-amber-500/30 rounded-xl p-4 text-amber-200 text-sm">
-          <p className="font-semibold mb-2">Assumptions / data gaps</p>
+          <p className="font-semibold mb-2">Sources / data gaps</p>
           <ul className="list-disc list-inside space-y-1">
             {standards.defaults_used.map((item, i) => <li key={i}>{item}</li>)}
           </ul>
@@ -227,6 +273,8 @@ export default function SearchPage() {
 
               {result.zoning && (
                 <>
+                  <PropertyFacts context={result.property_context || result.parcel?.property_context || result.zoning?.property_context} />
+
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
                     <div className="bg-surface-2 rounded-xl p-4">
                       <p className="text-muted text-xs uppercase tracking-wider mb-1">Max FSI</p>

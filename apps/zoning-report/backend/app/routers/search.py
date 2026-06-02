@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, HTTPException, Query
 
-from app.services.toronto_address_search import search_toronto_parcels
+from app.services.toronto_address_search import get_nearby_toronto_parcels, get_toronto_parcel_at_point, search_toronto_parcels
 from app.services.zoning_payload import build_zoning_payload
 
 router = APIRouter()
@@ -40,11 +40,21 @@ async def _search_toronto(q: str, limit: int) -> dict:
 
     results = []
     for parcel in parcels:
+        nearby_parcels = []
+        if parcel.get("geometry"):
+            try:
+                nearby_parcels = await get_nearby_toronto_parcels(
+                    parcel["geometry"],
+                    exclude_id=str(parcel.get("id") or ""),
+                )
+            except Exception:
+                nearby_parcels = []
         enriched = build_zoning_payload(
             lat=parcel["lat"],
             lng=parcel["lng"],
             city="toronto",
             parcel=parcel,
+            nearby_parcels=nearby_parcels,
         )
         result = {
             "id": parcel["id"],
@@ -58,6 +68,7 @@ async def _search_toronto(q: str, limit: int) -> dict:
             "overlays": enriched.get("overlays"),
             "standards": enriched.get("standards"),
             "development_standards": enriched.get("development_standards"),
+            "property_context": enriched.get("property_context"),
         }
         if enriched.get("error"):
             result["error"] = enriched["error"]
@@ -74,7 +85,20 @@ async def _search_toronto(q: str, limit: int) -> dict:
 
 
 async def _reverse_toronto(lat: float, lng: float) -> dict:
-    result = build_zoning_payload(lat=lat, lng=lng, city="toronto")
+    parcel = None
+    nearby_parcels = []
+    try:
+        parcel = await get_toronto_parcel_at_point(lat, lng)
+        if parcel and parcel.get("geometry"):
+            nearby_parcels = await get_nearby_toronto_parcels(
+                parcel["geometry"],
+                exclude_id=str(parcel.get("id") or ""),
+            )
+    except Exception:
+        parcel = None
+        nearby_parcels = []
+
+    result = build_zoning_payload(lat=lat, lng=lng, city="toronto", parcel=parcel, nearby_parcels=nearby_parcels)
     if result.get("zoning") is None:
         return {
             "city": "toronto",
@@ -95,6 +119,7 @@ async def _reverse_toronto(lat: float, lng: float) -> dict:
         "overlays": result.get("overlays"),
         "standards": result.get("standards"),
         "development_standards": result.get("development_standards"),
+        "property_context": result.get("property_context"),
     }
     return {
         "city": "toronto",

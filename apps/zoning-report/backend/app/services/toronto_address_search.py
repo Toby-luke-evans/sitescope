@@ -9,12 +9,13 @@ water, or general vibes district.
 
 from __future__ import annotations
 
+import json
 import logging
 import re
 from typing import Any
 
 import httpx
-from shapely.geometry import Polygon
+from shapely.geometry import Polygon, shape
 
 logger = logging.getLogger(__name__)
 
@@ -123,6 +124,63 @@ async def get_toronto_parcel_at_point(lat: float, lng: float) -> dict[str, Any] 
     if not features:
         return None
     return _parcel_from_feature(features[0])
+
+
+async def get_nearby_toronto_parcels(
+    parcel_geometry: dict[str, Any],
+    *,
+    exclude_id: str | None = None,
+    limit: int = 80,
+) -> list[dict[str, Any]]:
+    """Return parcel geometries near a subject parcel for topology analysis."""
+    try:
+        geom = shape(parcel_geometry)
+        if geom.is_empty:
+            return []
+        minx, miny, maxx, maxy = geom.bounds
+    except Exception as exc:
+        logger.warning("Could not parse subject parcel geometry for nearby lookup: %s", exc)
+        return []
+
+    # Roughly 100m at Toronto latitude; enough to catch opposite parcels across
+    # most streets without dragging in half the city like a needy API goblin.
+    pad = 0.0012
+    envelope = {
+        "xmin": minx - pad,
+        "ymin": miny - pad,
+        "xmax": maxx + pad,
+        "ymax": maxy + pad,
+        "spatialReference": {"wkid": 4326},
+    }
+    params: dict[str, Any] = {
+        "geometry": json.dumps(envelope),
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "OBJECTID,ADDRESS_NUMBER,LINEAR_NAME_FULL,FEATURE_TYPE",
+        "returnGeometry": "true",
+        "outSR": "4326",
+        "f": "json",
+        "resultRecordCount": limit,
+    }
+    async with httpx.AsyncClient(timeout=20.0) as client:
+        response = await client.get(ARCGIS_PARCEL_URL, params=params)
+        response.raise_for_status()
+        data = response.json()
+
+    if data.get("error"):
+        raise RuntimeError(data["error"].get("message") or "ArcGIS nearby parcel lookup failed")
+
+    nearby: list[dict[str, Any]] = []
+    for feature in data.get("features") or []:
+        attrs = feature.get("attributes") or {}
+        object_id = str(attrs.get("OBJECTID") or "")
+        if exclude_id and object_id == str(exclude_id):
+            continue
+        parcel = _parcel_from_feature(feature)
+        if parcel:
+            nearby.append(parcel)
+    return nearby
 
 
 async def search_toronto_parcels(query: str, limit: int = 10) -> list[dict[str, Any]]:

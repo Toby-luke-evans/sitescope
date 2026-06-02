@@ -1,11 +1,28 @@
 // API client for Zoning Report backend
 const API_BASE = "https://sitescope-zoning-report.onrender.com";
 
+export interface ParcelPropertyContext {
+  lot_area_sqm?: number | null;
+  lot_frontage_m?: number | null;
+  lot_depth_m?: number | null;
+  is_corner_lot?: boolean | null;
+  num_frontages?: number | null;
+  frontage_bearing_deg?: number | null;
+  front_street_row_width_m?: number | null;
+  frontage_source?: string;
+  depth_source?: string;
+  corner_source?: string;
+  row_width_source?: string;
+  confidence?: Record<string, number>;
+  warnings?: string[];
+}
+
 export interface ParcelInfo {
   lat: number;
   lng: number;
   zone_code: string;
   zn_string: string;
+  property_context?: ParcelPropertyContext | null;
 }
 
 export interface ZoningData {
@@ -17,6 +34,7 @@ export interface ZoningData {
   density: number | null;
   lot_coverage: number | null;
   stand_set: number | null;
+  property_context?: ParcelPropertyContext | null;
 }
 
 export interface OverlaysData {
@@ -70,6 +88,7 @@ export interface ZoningResponse {
   overlays: OverlaysData;
   standards: StandardsData;
   development_standards?: DevelopmentStandards | null;
+  property_context?: ParcelPropertyContext | null;
   city: string;
   error?: string;
   note?: string;
@@ -84,6 +103,7 @@ export interface ParcelSearchResult {
   zn_string?: string;
   zoning: ZoningData | null;
   overlays: OverlaysData;
+  property_context?: ParcelPropertyContext | null;
   error?: string;
 }
 

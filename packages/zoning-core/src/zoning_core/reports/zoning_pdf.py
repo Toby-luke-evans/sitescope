@@ -153,7 +153,7 @@ def _append_full_development_standards(story: list, dev: dict | None) -> None:
     story.append(Paragraph("Full Zoning Analysis", _section_style()))
     defaults = dev.get("defaults_used") or []
     if defaults:
-        story.append(_p("Assumptions / data gaps", _label_style()))
+        story.append(_p("Sources / data gaps", _label_style()))
         for item in defaults:
             story.append(_p(f"• {item}", _small_style()))
         story.append(Spacer(1, 8))
@@ -259,6 +259,7 @@ def build_zoning_pdf(data: dict) -> bytes:
     overlays = data.get("overlays", {})
     standards = data.get("standards", {})
     parcel = data.get("parcel", {})
+    property_context = data.get("property_context") or zoning.get("property_context") or parcel.get("property_context") or {}
 
     story = []
 
@@ -311,6 +312,31 @@ def build_zoning_pdf(data: dict) -> bytes:
     if lat and lng:
         story.append(Paragraph("Parcel Location", _section_style()))
         story.append(Paragraph(f"Coordinates: {lat:.6f}, {lng:.6f} (WGS84)", _body_style()))
+
+    if property_context:
+        story.append(Spacer(1, 12))
+        story.append(Paragraph("Property Facts", _section_style()))
+        fact_rows = [
+            ["Fact", "Value", "Source"],
+            ["Lot area", f"{_fmt_num(property_context.get('lot_area_sqm'))} m²", "Parcel geometry"],
+            ["Lot frontage", f"{_fmt_num(property_context.get('lot_frontage_m'))} m", property_context.get("frontage_source") or "—"],
+            ["Lot depth", f"{_fmt_num(property_context.get('lot_depth_m'))} m", property_context.get("depth_source") or "—"],
+            ["Corner lot", "Unknown" if property_context.get("is_corner_lot") is None else ("Yes" if property_context.get("is_corner_lot") else "No"), property_context.get("corner_source") or "—"],
+            ["Street ROW", f"{_fmt_num(property_context.get('front_street_row_width_m'))} m" if property_context.get("front_street_row_width_m") else "Unavailable", property_context.get("row_width_source") or "—"],
+        ]
+        tf = Table(fact_rows, colWidths=[1.4 * inch, 1.4 * inch, 2.7 * inch], hAlign="LEFT")
+        tf.setStyle(TableStyle([
+            ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+            ("FONTSIZE", (0, 0), (-1, -1), 8),
+            ("TEXTCOLOR", (0, 0), (-1, 0), CREAM),
+            ("BACKGROUND", (0, 0), (-1, 0), FADED),
+            ("TEXTCOLOR", (0, 1), (-1, -1), CREAM),
+            ("GRID", (0, 0), (-1, -1), 0.5, FADED),
+            ("TOPPADDING", (0, 0), (-1, -1), 6),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+        ]))
+        story.append(tf)
+        story.append(_p("No proposed/current building assumptions are used for these property facts.", _small_style()))
 
     story.append(Spacer(1, 24))
     story.append(Paragraph("<b>Overlay Summary</b>", _section_style()))

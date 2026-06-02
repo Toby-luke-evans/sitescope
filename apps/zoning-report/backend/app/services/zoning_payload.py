@@ -6,6 +6,11 @@ from typing import Any
 
 from shapely.geometry import shape
 
+try:
+    from geometry.parcel_context import build_parcel_spatial_context
+except Exception:  # pragma: no cover
+    build_parcel_spatial_context = None
+
 from zoning_core.bylaws import get_zone_params
 from zoning_core.spatial import (
     is_loaded,
@@ -78,6 +83,7 @@ def build_zoning_payload(
     lng: float,
     city: str = "toronto",
     parcel: dict[str, Any] | None = None,
+    nearby_parcels: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Build complete zoning payload for a point/parcel."""
     base: dict[str, Any] = {
@@ -90,6 +96,7 @@ def build_zoning_payload(
         },
         "standards": _legacy_standards({}, None),
         "development_standards": None,
+        "property_context": None,
         "city": city.lower(),
     }
 
@@ -99,6 +106,20 @@ def build_zoning_payload(
             "address": parcel.get("address"),
             "geometry": parcel.get("geometry"),
         })
+
+    parcel_geometry = parcel.get("geometry") if parcel else None
+    nearby_geometries = [p.get("geometry") for p in (nearby_parcels or []) if p.get("geometry")]
+    property_context: dict[str, Any] | None = None
+    if build_parcel_spatial_context is not None and parcel_geometry:
+        try:
+            property_context = build_parcel_spatial_context(
+                parcel_geometry,
+                nearby_parcel_geometries=nearby_geometries,
+            ).to_dict()
+            base["property_context"] = property_context
+            base["parcel"]["property_context"] = property_context
+        except Exception as exc:
+            base["property_context_error"] = str(exc)
 
     if not is_loaded():
         base["error"] = "Zoning index loading. Please retry in ~30 seconds."
@@ -146,6 +167,7 @@ def build_zoning_payload(
         "lot_coverage": lot_coverage,
         "stand_set": zone.stand_set,
         "abutting_zones": abutting_zones,
+        "property_context": property_context,
     }
     base["overlays"]["abutting_zones"] = abutting_zones
 
@@ -159,8 +181,12 @@ def build_zoning_payload(
             parsed_zn=parsed,
             max_height_m=max_height_m,
             lot_coverage_pct=lot_coverage,
-            parcel_geometry=parcel.get("geometry") if parcel else None,
+            parcel_geometry=parcel_geometry,
+            nearby_parcel_geometries=nearby_geometries,
             abutting_zones=abutting_zones,
+            is_corner_lot=(property_context or {}).get("is_corner_lot") if property_context else None,
+            row_width_m=(property_context or {}).get("front_street_row_width_m") if property_context else None,
+            num_dwelling_units=0,
         )
         dev = evaluate_all_standards(ctx, defaults)
         base["development_standards"] = dev.model_dump(mode="json")

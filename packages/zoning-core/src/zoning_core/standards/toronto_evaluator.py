@@ -619,8 +619,9 @@ def evaluate_all_standards(
         "lot_frontage_m": round(ctx.lot_frontage_m, 1),
         "lot_depth_m": round(ctx.lot_depth_m, 1),
         "is_corner_lot": ctx.is_corner_lot,
+        "num_frontages": ctx.num_frontages,
         "abutting_rear_zone": ctx.abutting_rear_zone,
-        "building_type": ctx.building_type,
+        "front_street_row_width_m": ctx.front_street_row_width_m if ctx.front_street_row_width_m > 0 else None,
     }
 
     return DevelopmentStandards(

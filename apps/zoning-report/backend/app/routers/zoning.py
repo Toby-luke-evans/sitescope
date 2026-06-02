@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, HTTPException, Query
 
-from app.services.toronto_address_search import get_toronto_parcel_at_point
+from app.services.toronto_address_search import get_nearby_toronto_parcels, get_toronto_parcel_at_point
 from app.services.zoning_payload import build_zoning_payload
 
 router = APIRouter()
@@ -26,4 +26,14 @@ async def lookup_zoning(
         # from the coordinate alone. Don't fail the whole endpoint over city GIS.
         parcel = None
 
-    return build_zoning_payload(lat=lat, lng=lng, city=city, parcel=parcel)
+    nearby_parcels = []
+    if parcel and parcel.get("geometry"):
+        try:
+            nearby_parcels = await get_nearby_toronto_parcels(
+                parcel["geometry"],
+                exclude_id=str(parcel.get("id") or ""),
+            )
+        except Exception:
+            nearby_parcels = []
+
+    return build_zoning_payload(lat=lat, lng=lng, city=city, parcel=parcel, nearby_parcels=nearby_parcels)
