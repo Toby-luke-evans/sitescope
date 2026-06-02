@@ -1,0 +1,4118 @@
+[
+  {
+    "element_id": "7eafd17d12df23bcb62fe4cb49e02551",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            538.6,
+            101.1
+          ],
+          [
+            538.6,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            101.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.5361,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "89d0190294009b2d24312d2ed364f013",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            279.2,
+            238.7
+          ],
+          [
+            279.2,
+            264.1
+          ],
+          [
+            971.3,
+            264.1
+          ],
+          [
+            971.3,
+            238.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.8469,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "20,000 square metres and greater 2 Type \"A\" and 3 Type \"B\"",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "b0f205bb0faf22f56bdafa47ccdc5d98",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            288.0
+          ],
+          [
+            235.7,
+            314.5
+          ],
+          [
+            698.6,
+            314.5
+          ],
+          [
+            698.6,
+            288.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.61872,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "(5) Loading Space Requirements - Office",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "90914109b71feecd5ea8d24240bc612e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            326.1
+          ],
+          [
+            274.7,
+            352.7
+          ],
+          [
+            1016.6,
+            352.7
+          ],
+          [
+            1016.6,
+            326.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.72749,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "A building with an office must provide loading spaces as follows:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "490c3c06bca59fcf7068c92232cf500f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.7,
+            405.8
+          ],
+          [
+            283.7,
+            713.4
+          ],
+          [
+            1231.2,
+            713.4
+          ],
+          [
+            1231.2,
+            405.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.2508,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "Gross Floor Area Minimum Number of Loading Spaces Required 0 to 499 square metres None required 500 to 999 square metres 1 Type \"B\" 1,000 to 1,999 square metres 1 Type \"B\" and 1 Type C\" 2,000 to 3,999 square metres 1 Type \"B\" and 2 Type \"C\" 4,000 to 27,999 square metres 2 Type \"B\" and 2 Type \"C\" 28,000 to 51,999 square metres 2 Type \"B\" and 3 Type \"C\" 52,000 square metres or greater 2 Type \"B\" and 3 Type \"C\" [ By-law 451-2022 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "dde76eeb87ffcb03e8811ae0b9d053a1",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            733.6
+          ],
+          [
+            235.7,
+            760.1
+          ],
+          [
+            691.6,
+            760.1
+          ],
+          [
+            691.6,
+            733.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.51537,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "(6) Loading Space Requirements - Hotel",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "9ef9099bb640c24e7e7bcfd2757610b0",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            772.1
+          ],
+          [
+            274.7,
+            798.4
+          ],
+          [
+            982.3,
+            798.4
+          ],
+          [
+            982.3,
+            772.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.80808,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "A building with hotel must provide loading spaces as follows:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "9b1bea46c4c9d56f0ef6ad66f38da3ce",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.7,
+            851.8
+          ],
+          [
+            283.7,
+            878.1
+          ],
+          [
+            495.0,
+            878.1
+          ],
+          [
+            495.0,
+            851.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "Gross Floor Area",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "624521952d9de6f5fabbeeeee07ca995",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            653.3,
+            851.8
+          ],
+          [
+            653.3,
+            878.1
+          ],
+          [
+            1192.6,
+            878.1
+          ],
+          [
+            1192.6,
+            851.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "Minimum Number of Loading Spaces Required",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "a05de1a113846111905a0c6e3e88cf5b",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            270.3,
+            890.6
+          ],
+          [
+            270.3,
+            916.5
+          ],
+          [
+            725.0,
+            916.5
+          ],
+          [
+            725.0,
+            890.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.2897,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "0 to 4,999 square metres",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "6a5dfe2ac411b721cca0d8594257d3ce",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            653.3,
+            891.5
+          ],
+          [
+            653.3,
+            916.5
+          ],
+          [
+            778.0,
+            916.5
+          ],
+          [
+            778.0,
+            891.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "1 Type \"B\"",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "99c9b6889455fcceb41a35e5fd967173",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.7,
+            931.5
+          ],
+          [
+            283.7,
+            956.5
+          ],
+          [
+            624.3,
+            956.5
+          ],
+          [
+            624.3,
+            931.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "5,000 to 9,999 square metres.",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "7c5977adbdad37bff66415285f238656",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            653.3,
+            931.5
+          ],
+          [
+            653.3,
+            956.5
+          ],
+          [
+            953.0,
+            956.5
+          ],
+          [
+            953.0,
+            931.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "1 Type \"B\" and 1 Type \"C\"",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "a174d955948813b897a1a79e9e746956",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            280.7,
+            970.3
+          ],
+          [
+            280.7,
+            996.1
+          ],
+          [
+            956.9,
+            996.1
+          ],
+          [
+            956.9,
+            970.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.36526,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "10,000 to 19,999 square metres 2 Type \"B\" and 1 Type \"C\"",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "686c114c45906878969851606bec3f6c",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.7,
+            1011.1
+          ],
+          [
+            283.7,
+            1036.1
+          ],
+          [
+            956.0,
+            1036.1
+          ],
+          [
+            956.0,
+            1011.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.32035,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "20,000 to 49,999 square metres 2 Type \"B\" and 2 Type \"C\"",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "3d21749617217113df92057867e5dfd6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            279.8,
+            1049.5
+          ],
+          [
+            279.8,
+            1076.1
+          ],
+          [
+            1312.6,
+            1076.1
+          ],
+          [
+            1312.6,
+            1049.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.56066,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "50,000 square metres or greater 1 Type \"A\", 1 Type \"B\" and 2 Type \"C\" [ By-law 451-2022 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "7c7e1a0145d6e457c702a5fdd551f1bc",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1098.6
+          ],
+          [
+            235.7,
+            1126.1
+          ],
+          [
+            1007.0,
+            1126.1
+          ],
+          [
+            1007.0,
+            1098.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.42154,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "(7) Loading Space Requirements - Manufacturing or Warehouse Use",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "b53740e4637009c547c92a96035ca69b",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            265.7,
+            1138.2
+          ],
+          [
+            265.7,
+            1164.7
+          ],
+          [
+            1360.9,
+            1164.7
+          ],
+          [
+            1360.9,
+            1138.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.57004,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "A building with manufacturing use or warehouse use must provide loading spaces as follows:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "e90c10ec6d59f3d778481577af0c0597",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            261.2,
+            1215.8
+          ],
+          [
+            261.2,
+            1244.1
+          ],
+          [
+            1200.1,
+            1244.1
+          ],
+          [
+            1200.1,
+            1215.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.29888,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "Gross Floor Area Minimum Number of Loading Spaces Required",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "9791853fae632c8962bf7fa6c278e9d9",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.7,
+            1257.8
+          ],
+          [
+            283.7,
+            1282.8
+          ],
+          [
+            534.0,
+            1282.8
+          ],
+          [
+            534.0,
+            1257.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "0 to 99 square metres",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "02dc1759211bf6448a49b04cfaa43cd2",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            653.3,
+            1257.8
+          ],
+          [
+            653.3,
+            1282.8
+          ],
+          [
+            720.0,
+            1282.8
+          ],
+          [
+            720.0,
+            1257.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "None",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "9eb75e65795dd10e25ce3be9cd5379b5",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            281.6,
+            1296.1
+          ],
+          [
+            281.6,
+            1322.5
+          ],
+          [
+            779.6,
+            1322.5
+          ],
+          [
+            779.6,
+            1296.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.41951,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "100 to 499 square metres 1 Type \"C\"",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "4661e0acdfa1f57c9979189f457d781f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            279.6,
+            1335.8
+          ],
+          [
+            279.6,
+            1362.5
+          ],
+          [
+            780.2,
+            1362.5
+          ],
+          [
+            780.2,
+            1335.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.40714,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "500 to 999 square metres 1 Type \"B\"",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "4703e11e18593fa363f5f197baee2461",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.1,
+            1376.8
+          ],
+          [
+            283.1,
+            1402.1
+          ],
+          [
+            779.7,
+            1402.1
+          ],
+          [
+            779.7,
+            1376.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.46021,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "1,000 to 4,999 square metres 1 Type \"A\"",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "ae0fef9290858e740073ccf78238f4ac",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            282.7,
+            1417.1
+          ],
+          [
+            282.7,
+            1442.1
+          ],
+          [
+            778.0,
+            1442.1
+          ],
+          [
+            778.0,
+            1417.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.46233,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "5,000 to 9,999 square metres 2 Type \"A\"",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "98a07f0a1a142b5a0522bcd5211a4f93",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            281.6,
+            1456.8
+          ],
+          [
+            281.6,
+            1481.8
+          ],
+          [
+            782.1,
+            1481.8
+          ],
+          [
+            782.1,
+            1456.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.618,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "10,000 to 14,999 square metres 3 Type \"A\"",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "ecd48792505b6105f076708e5fb1d607",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.1,
+            1496.6
+          ],
+          [
+            273.1,
+            1521.8
+          ],
+          [
+            1011.8,
+            1521.8
+          ],
+          [
+            1011.8,
+            1496.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.77972,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "15,000 square metres or greater 3 Type \"A\" [ By-law 451-2022 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "2c4c0b1aca6ee52a4e05a50f55de9e56",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1545.8
+          ],
+          [
+            235.7,
+            1572.1
+          ],
+          [
+            836.0,
+            1572.1
+          ],
+          [
+            836.0,
+            1545.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.55118,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "(8) Loading Space Requirements - Other Select Uses",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "af4bad1028a821ff10184e6981285168",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.4,
+            1583.9
+          ],
+          [
+            273.4,
+            1639.1
+          ],
+          [
+            1445.9,
+            1639.1
+          ],
+          [
+            1445.9,
+            1583.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92186,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "A building with a passenger terminal, hospital or any other use similarly involving shipping, loading or unloading of persons, animals or goods, wares or merchandise, must provide loading spaces as follows:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "8de2e725e302e0de7dacc55a703c8570",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.4,
+            1686.0
+          ],
+          [
+            273.4,
+            1952.0
+          ],
+          [
+            1378.7,
+            1952.0
+          ],
+          [
+            1378.7,
+            1686.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.49679,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551",
+      "text_as_html": "<table><tbody><tr><td>0 to less than 500 square metres</td><td></td></tr><tr><td>500 to less than 2300 square metres</td><td>\"B\"</td></tr><tr><td>2300 to less than 7500 square metres</td><td>\"B\"</td></tr><tr><td>7500 to less than 14000 square metres</td><td>\"B\"</td></tr><tr><td>14000 to less than 22000 square metres</td><td>\"B\"</td></tr><tr><td>22000 to less than 30000 square metres</td><td>\"B\"</td></tr></tbody></table>"
+    },
+    "text": "Gross Floor Area Minimum Number of Loading Spaces Required 0 to less than 500 square metres None 500 to less than 2300 square metres 1 Type \"B\" 2300 to less than 7500 square metres 2 Type \"B\" 7500 to less than 14000 square metres 3 Type \"B\" 14000 to less than 22000 square metres 4 Type \"B\"",
+    "type": "Table"
+  },
+  {
+    "element_id": "d3b40197a3d3fdda02728411389f697c",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            283.7,
+            1931.5
+          ],
+          [
+            283.7,
+            1956.5
+          ],
+          [
+            867.0,
+            1956.5
+          ],
+          [
+            867.0,
+            1931.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "22000 to less than 30000 square metres 5 Type \"B\"",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "89ac353ea0510627d07e12ff0d802c22",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 359,
+      "parent_id": "7eafd17d12df23bcb62fe4cb49e02551"
+    },
+    "text": "338",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "666597ba95f8a089074722c381dc5fd2",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            539.7,
+            101.4
+          ],
+          [
+            539.7,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            101.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.56345,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "b5022221bd921e81453ebdc4625a6fe2",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.5,
+            233.4
+          ],
+          [
+            273.5,
+            258.5
+          ],
+          [
+            504.0,
+            258.5
+          ],
+          [
+            504.0,
+            233.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.88575,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "[ By-law: 801-2020 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "7a7332abf6bf5f7581b7d67e6d61ec33",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            274.8
+          ],
+          [
+            235.7,
+            299.8
+          ],
+          [
+            678.9,
+            299.8
+          ],
+          [
+            678.9,
+            274.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86108,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(9) Shared Loading Space Calculations",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "d56ea25a70e0b99cb6e7410c4cc16134",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.8,
+            311.8
+          ],
+          [
+            273.8,
+            395.7
+          ],
+          [
+            1473.0,
+            395.7
+          ],
+          [
+            1473.0,
+            311.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93995,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "The loading space requirement for a building in Policy Area 1 (PA1) or Policy Area 2 (PA2) and which has two or more of the following uses; Office, Retail Store, Eating Establishment, Personal Service Shop, or Hotel, is the total of (A) and (B) below:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "80337a20de4b796ff6d36e59a9230eda",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            301.6,
+            412.8
+          ],
+          [
+            301.6,
+            496.4
+          ],
+          [
+            1483.3,
+            496.4
+          ],
+          [
+            1483.3,
+            412.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94243,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(A) the minimum number of required Type \"B\" loading spaces is the largest number of Type \"B\" loading space required for any one of the uses listed above, plus the Type \"B\" loading spaces required for all other non-residential uses in the building and not listed above; plus",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "d286f243165f6af6ed7a328b39b84511",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            301.9,
+            507.1
+          ],
+          [
+            301.9,
+            591.1
+          ],
+          [
+            1475.6,
+            591.1
+          ],
+          [
+            1475.6,
+            507.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94012,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(B) the minimum number of required Type \"C\" loading spaces is the largest number of Type \"C\" loading spaces required for any one of the uses listed above plus the Type \"C\" loading spaces required for all other non-residential uses in the building that are not listed above.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "4a6f6192b2982a1b923f2fcc8e8c62b3",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            220.5,
+            612.0
+          ],
+          [
+            220.5,
+            637.1
+          ],
+          [
+            602.6,
+            637.1
+          ],
+          [
+            602.6,
+            612.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.82039,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(10) Loading Space Not Required",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "1747c6f1a79ede872a6e2de141e22a29",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            649.5
+          ],
+          [
+            274.7,
+            704.4
+          ],
+          [
+            1493.3,
+            704.4
+          ],
+          [
+            1493.3,
+            649.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93987,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "No type \"G\" loading space is required if a building has less than 30 dwelling units and is on a lot with a lot area of less than 1,000 square metres.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "eef4f6b9ed88e68b20b700eb025e7fc3",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            221.8,
+            719.3
+          ],
+          [
+            221.8,
+            744.5
+          ],
+          [
+            541.6,
+            744.5
+          ],
+          [
+            541.6,
+            719.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.83344,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(11) Loading Space Options",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "5ed5a2f551df66a023554a5682e5bbfc",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            756.5
+          ],
+          [
+            274.7,
+            811.4
+          ],
+          [
+            1490.3,
+            811.4
+          ],
+          [
+            1490.3,
+            756.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93583,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "An apartment building with 400 dwelling units or more, may satisfy the requirement for a Type \"C\" loading space by providing instead one of the following loading spaces:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "3392fe4d45ecf2da543efcbf9de9a16f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.0,
+            827.3
+          ],
+          [
+            303.0,
+            853.5
+          ],
+          [
+            455.6,
+            853.5
+          ],
+          [
+            455.6,
+            827.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.6792,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(A) Type \"A\";",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "23b79148e089b14cedb9ce3144fe4ef5",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.3,
+            865.4
+          ],
+          [
+            303.3,
+            890.5
+          ],
+          [
+            484.6,
+            890.5
+          ],
+          [
+            484.6,
+            865.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.84929,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(B) Type \"B\"; or",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "6fb472afa37816bfc96b7b837ce76a1d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            302.0,
+            902.8
+          ],
+          [
+            302.0,
+            927.8
+          ],
+          [
+            566.6,
+            927.8
+          ],
+          [
+            566.6,
+            902.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.88046,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(C) a second Type \"G\".",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "8e72b5b360fdb2017a6a99fa171b06d4",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            985.1
+          ],
+          [
+            200.0,
+            1012.7
+          ],
+          [
+            725.0,
+            1012.7
+          ],
+          [
+            725.0,
+            985.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "220.5.10.11 Loading Space Exemptions",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "1c0b3ae723a5e2b98bea42cdba95f03c",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            234.0,
+            1059.5
+          ],
+          [
+            234.0,
+            1084.8
+          ],
+          [
+            964.0,
+            1084.8
+          ],
+          [
+            964.0,
+            1059.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.79106,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(1) Loading Space Requirements For a Lawfully Existing Building",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "2544c6424d7059a51b71fad5f208fc30",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1096.8
+          ],
+          [
+            274.7,
+            1180.7
+          ],
+          [
+            1474.3,
+            1180.7
+          ],
+          [
+            1474.3,
+            1096.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.89913,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "If the lawful number of loading spaces for a lawfully existing building is less than the required number of loading spaces, the lawful number of loading spaces is the minimum number of loading spaces for that lawfully existing building. [ By-law: 420-2023 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "5df907df0130af6efa37003fe6b7f67b",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            231.6,
+            1195.2
+          ],
+          [
+            231.6,
+            1220.8
+          ],
+          [
+            979.3,
+            1220.8
+          ],
+          [
+            979.3,
+            1195.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.85419,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(2) Loading Space Exemption for a Non-residential Change of Use",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "0d9121f0e3ed5291f3de1a8743ac8436",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            268.5,
+            1232.8
+          ],
+          [
+            268.5,
+            1287.7
+          ],
+          [
+            1488.3,
+            1287.7
+          ],
+          [
+            1488.3,
+            1232.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92072,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "If a lawfully existing non-residential building has a change of use to other than a dwelling unit, additional loading spaces are not required if:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "e068b1606ac4425ec4d4a9f1bfca24d1",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            292.9,
+            1304.8
+          ],
+          [
+            292.9,
+            1331.1
+          ],
+          [
+            1344.7,
+            1331.1
+          ],
+          [
+            1344.7,
+            1304.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.44256,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(A) the first storey of the lawfully existing building covers at least 75% of the lot area; and",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "24b420df8464c9dbb971dc3d5f6f0ce4",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            290.9,
+            1341.8
+          ],
+          [
+            290.9,
+            1368.1
+          ],
+          [
+            942.3,
+            1368.1
+          ],
+          [
+            942.3,
+            1341.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.891,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(B) the lawful number of loading spaces is not reduced.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "58d8081d9ef9dfd9123dd63080784930",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1389.5
+          ],
+          [
+            235.7,
+            1414.5
+          ],
+          [
+            1268.3,
+            1414.5
+          ],
+          [
+            1268.3,
+            1389.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(3) Loading Space Requirements for the Addition or Extension to a Lawfully Existing Building",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "6361227e1ba1a0cb5e13a637de30de2e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            270.1,
+            1426.3
+          ],
+          [
+            270.1,
+            1509.1
+          ],
+          [
+            1500.6,
+            1509.1
+          ],
+          [
+            1500.6,
+            1426.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92628,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "Any addition or extension to a lawfully existing building referred to in regulation 220.5.10.11(1) must provide any additional loading spaces required by Clause 220.5.10.1 or be authorized by a Section 45 Planning Act minor variance",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "7a70cae305c8c365283bb1c268e998eb",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1524.1
+          ],
+          [
+            235.7,
+            1550.1
+          ],
+          [
+            1184.3,
+            1550.1
+          ],
+          [
+            1184.3,
+            1524.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86413,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(4) Loading Space Requirements for a Change of Use in a Lawfully Existing Building",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "b3050d2f4a745ace6ef8eb6388bc419e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1562.3
+          ],
+          [
+            274.7,
+            1588.7
+          ],
+          [
+            1343.2,
+            1588.7
+          ],
+          [
+            1343.2,
+            1562.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.74274,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "If a lawfully existing mixed use building referred to in regulation 220.5.10.11(1) changes use:",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "1c52e3de1bf80d8a7552df8d7a4dad26",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            298.2,
+            1605.8
+          ],
+          [
+            298.2,
+            1632.1
+          ],
+          [
+            1177.3,
+            1632.1
+          ],
+          [
+            1177.3,
+            1605.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.76133,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(A) the lawfully existing number of loading spaces may not be reduced; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "89f90f121fc8c72a935c1a997800f945",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            294.8,
+            1642.8
+          ],
+          [
+            294.8,
+            1696.5
+          ],
+          [
+            1398.9,
+            1696.5
+          ],
+          [
+            1398.9,
+            1642.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92521,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(B) any additional required loading spaces required by Clause 220.5.10.1 must be provided or be authorized by a Section 45 Planning Act minor variance.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "9870178cac4c878163ce714e2bb185f0",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1719.1
+          ],
+          [
+            235.7,
+            1744.1
+          ],
+          [
+            1112.6,
+            1744.1
+          ],
+          [
+            1112.6,
+            1719.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "(5) Transportation Use Along Eglinton Avenue West and Eglinton Avenue East",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "731a84f3397c4369e83e36f94a339a5f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1756.1
+          ],
+          [
+            274.7,
+            1809.8
+          ],
+          [
+            1469.6,
+            1809.8
+          ],
+          [
+            1469.6,
+            1756.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86541,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "Regulation 220.5.10.1(8) does not apply to a transportation use along Eglinton Avenue West and Eglinton Avenue East. [103-2016] [ By-law: 1031-2014 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "837fce5e86e3dc0d05368576926785d8",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1861.1
+          ],
+          [
+            200.0,
+            1888.7
+          ],
+          [
+            660.3,
+            1888.7
+          ],
+          [
+            660.3,
+            1861.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "220.5.20 Access to Loading Space",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "2cf81459dedd6a3f5205ee943803ba5f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1931.7
+          ],
+          [
+            200.0,
+            1959.4
+          ],
+          [
+            450.0,
+            1959.4
+          ],
+          [
+            450.0,
+            1931.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "220.5.20.1 General",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "9cd0c76a067d2db39b29d6cc87b39396",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 360,
+      "parent_id": "666597ba95f8a089074722c381dc5fd2"
+    },
+    "text": "339",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "0efafb420caa5804abfea77214ebe320",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            534.9,
+            102.9
+          ],
+          [
+            534.9,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            102.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.48372,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "36a609a6d4a9bdb8c333c2d97d3390b5",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            232.6,
+            234.1
+          ],
+          [
+            232.6,
+            260.5
+          ],
+          [
+            741.6,
+            260.5
+          ],
+          [
+            741.6,
+            234.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.47644,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0efafb420caa5804abfea77214ebe320"
+    },
+    "text": "(1) Standards for Access to a Loading Space",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "0b523d76196ef8b5d0da678fd856cc60",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            271.6,
+            272.8
+          ],
+          [
+            271.6,
+            299.1
+          ],
+          [
+            765.0,
+            299.1
+          ],
+          [
+            765.0,
+            272.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.51347,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0efafb420caa5804abfea77214ebe320"
+    },
+    "text": "A driveway to a loading space must have:",
+    "type": "Title"
+  },
+  {
+    "element_id": "4d0bb1e0428e5aaaee7084bc5ae4db65",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            300.8,
+            316.1
+          ],
+          [
+            300.8,
+            341.1
+          ],
+          [
+            820.3,
+            341.1
+          ],
+          [
+            820.3,
+            316.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.82665,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(A) a minimum width along its entire length of:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "c9d1ea9f4bca22d1c0de19b8e2fa6ffc",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            376.0,
+            359.5
+          ],
+          [
+            376.0,
+            385.7
+          ],
+          [
+            845.8,
+            385.7
+          ],
+          [
+            845.8,
+            359.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.49955,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(i) 3.5 metres for a one-way driveway; or",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "0d8a99f9f371fa5e800a0e3eca259418",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            369.7,
+            396.4
+          ],
+          [
+            369.7,
+            422.7
+          ],
+          [
+            864.2,
+            422.7
+          ],
+          [
+            864.2,
+            396.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.48966,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(ii) 6.0 metres for a two-way driveway; and",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "cb4952d2a34eb1de4c35181bb15cd7d7",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            294.2,
+            439.8
+          ],
+          [
+            294.2,
+            464.8
+          ],
+          [
+            954.6,
+            464.8
+          ],
+          [
+            954.6,
+            439.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.69888,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(B) a minimum vertical clearance along its entire length of:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "8fc678042dbb04c9d5db3d67cacf9cf8",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            379.1,
+            483.0
+          ],
+          [
+            379.1,
+            509.4
+          ],
+          [
+            1004.6,
+            509.4
+          ],
+          [
+            1004.6,
+            483.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.66463,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(i) 4.4 metres to a Type \"A\" or Type \"G\" loading space;",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "dd859c9f449f0fd1f88dd905167f432a",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            370.3,
+            520.1
+          ],
+          [
+            370.3,
+            546.4
+          ],
+          [
+            917.3,
+            546.4
+          ],
+          [
+            917.3,
+            520.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.72769,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(ii) 4.0 metres to a Type \"B\" loading space; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "d22dad6d7700dbb6e9d01832266cd835",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            361.8,
+            557.1
+          ],
+          [
+            361.8,
+            583.4
+          ],
+          [
+            874.8,
+            583.4
+          ],
+          [
+            874.8,
+            557.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.6861,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(iii) 3.0 metres to a Type \"C\" loading space.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "520cf4d313b3087ba847c49e7fb85c15",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            610.1
+          ],
+          [
+            235.7,
+            636.1
+          ],
+          [
+            536.0,
+            636.1
+          ],
+          [
+            536.0,
+            610.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.8074,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(2) Loading Space Access",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "284d229304bd5021669a5ad854b66efb",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            648.1
+          ],
+          [
+            274.7,
+            674.4
+          ],
+          [
+            1126.2,
+            674.4
+          ],
+          [
+            1126.2,
+            648.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.84139,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "The permitted maximum slope of a driveway leading to a loading space is:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "f52721a36c47f627f3dde711d88aa3ed",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            302.7,
+            691.5
+          ],
+          [
+            302.7,
+            717.7
+          ],
+          [
+            780.6,
+            717.7
+          ],
+          [
+            780.6,
+            691.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.61581,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(A) 8% for a Type \"G\" loading space; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "c962dd92ff02c97a4d096a8ce143aef9",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            302.3,
+            728.5
+          ],
+          [
+            302.3,
+            753.5
+          ],
+          [
+            603.3,
+            753.5
+          ],
+          [
+            603.3,
+            728.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.82022,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(B) 15% in all other cases.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "18e27645a70bc2c52a1e3afc9299c785",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            776.1
+          ],
+          [
+            235.7,
+            801.1
+          ],
+          [
+            800.0,
+            801.1
+          ],
+          [
+            800.0,
+            776.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86155,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(3) Vehicle Access to Building with Loading Space",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "ddcfdf72a92ae672c4644e0bb3fc4b94",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            813.1
+          ],
+          [
+            274.7,
+            839.4
+          ],
+          [
+            718.9,
+            839.4
+          ],
+          [
+            718.9,
+            813.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "If a loading space is inside a building:",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "4e9c313041cf0f2514ade71b7a516a4b",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            290.4,
+            856.5
+          ],
+          [
+            290.4,
+            910.1
+          ],
+          [
+            1404.2,
+            910.1
+          ],
+          [
+            1404.2,
+            856.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92685,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(A) the vehicle entrance and exit for a two-way driveway into and out of the building must have a minimum width of 5.5 metres; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "46bcec992d2388027bdf447ca1da54a7",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.3,
+            922.1
+          ],
+          [
+            303.3,
+            1006.1
+          ],
+          [
+            1474.0,
+            1006.1
+          ],
+          [
+            1474.0,
+            922.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93834,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0b523d76196ef8b5d0da678fd856cc60"
+    },
+    "text": "(B) the vehicle entrance or exit for a one-way driveway into or out of the building must have a minimum width of 3.5 metres, if the vehicle entrance or exit is 6.0 metres or more away from the lot line abutting a street.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "d5c41430907079411f87208528f5cf88",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            199.6,
+            1061.0
+          ],
+          [
+            199.6,
+            1090.1
+          ],
+          [
+            612.0,
+            1090.1
+          ],
+          [
+            612.0,
+            1061.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.91588,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0efafb420caa5804abfea77214ebe320"
+    },
+    "text": "220.5.200 Loading Exemptions",
+    "type": "Title"
+  },
+  {
+    "element_id": "53281c28d4062a74dbc1dd138a3a1d56",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1133.1
+          ],
+          [
+            200.0,
+            1160.7
+          ],
+          [
+            894.6,
+            1160.7
+          ],
+          [
+            894.6,
+            1133.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "d5c41430907079411f87208528f5cf88"
+    },
+    "text": "220.5.200.40 Commercial Residential Zone Category",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "35640b3f08e33724309d4629b7c38980",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            231.5,
+            1207.2
+          ],
+          [
+            231.5,
+            1232.8
+          ],
+          [
+            695.9,
+            1232.8
+          ],
+          [
+            695.9,
+            1207.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.73451,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "0efafb420caa5804abfea77214ebe320"
+    },
+    "text": "(1) Loading Space Exemption- SS2 Area",
+    "type": "Title"
+  },
+  {
+    "element_id": "4e77ba3434df3f2f5838e668f8cba50a",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1244.5
+          ],
+          [
+            274.7,
+            1299.7
+          ],
+          [
+            1477.9,
+            1299.7
+          ],
+          [
+            1477.9,
+            1244.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92314,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "If a lot in the CR zone is subject to Development Standard Set 2 (SS2), the loading space requirements for any non-residential uses do not apply to a lot that has lot area of less than 1,000 square metres.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "4e99367a4a79dbe3e318c1a366470812",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1349.7
+          ],
+          [
+            200.0,
+            1377.4
+          ],
+          [
+            1069.0,
+            1377.4
+          ],
+          [
+            1069.0,
+            1349.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "220.5.200.50 Commercial Residential Employment Zone Category",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "04f9e8daf7a8e1e31ab3cc3f18936ace",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1424.5
+          ],
+          [
+            235.7,
+            1449.5
+          ],
+          [
+            716.6,
+            1449.5
+          ],
+          [
+            716.6,
+            1424.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "(1) Exemption for Existing Loading Spaces",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "35bc28bd8af031087f25556de71b1216",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.4,
+            1461.8
+          ],
+          [
+            273.4,
+            1516.7
+          ],
+          [
+            1487.9,
+            1516.7
+          ],
+          [
+            1487.9,
+            1461.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.87638,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "In the CRE zone, the number of loading spaces for a lawfully existing building is the lesser of the loading spaces:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "a1c7c14c93a17754311c3f7b4ac80efb",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            302.0,
+            1533.6
+          ],
+          [
+            302.0,
+            1560.1
+          ],
+          [
+            874.3,
+            1560.1
+          ],
+          [
+            874.3,
+            1533.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.82534,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "(A) that were lawful on the lot on January 1, 1997;",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "9f1363a274eb664fadf220a7088d330f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            293.4,
+            1570.8
+          ],
+          [
+            293.4,
+            1595.8
+          ],
+          [
+            1052.2,
+            1595.8
+          ],
+          [
+            1052.2,
+            1570.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.87486,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "(B) required by a building permit issued before January 1, 1997; or",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "d1be1b8f627888d6046cdb7b409fd871",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            299.2,
+            1607.8
+          ],
+          [
+            299.2,
+            1632.8
+          ],
+          [
+            782.3,
+            1632.8
+          ],
+          [
+            782.3,
+            1607.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.88874,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "(C) permitted by regulation 220.5.10.11(1).",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "afa9a1562a05ba8368e54004b6c53824",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 361,
+      "parent_id": "35640b3f08e33724309d4629b7c38980"
+    },
+    "text": "340",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "f6170c5a1a7db1b320aac5b981d86988",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            537.4,
+            103.0
+          ],
+          [
+            537.4,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            103.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.59487,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "ef8fb0cc2b7024d99c7099bcc720a263",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            232.2
+          ],
+          [
+            200.0,
+            266.9
+          ],
+          [
+            1311.3,
+            266.9
+          ],
+          [
+            1311.3,
+            232.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86625,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "f6170c5a1a7db1b320aac5b981d86988"
+    },
+    "text": "220.20 Regulations Applying to Loading Spaces in Heritage Buildings",
+    "type": "Title"
+  },
+  {
+    "element_id": "571a097f373beef9401f95fc5c8b3a1f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            199.4,
+            307.3
+          ],
+          [
+            199.4,
+            336.4
+          ],
+          [
+            427.0,
+            336.4
+          ],
+          [
+            427.0,
+            307.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.89525,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "f6170c5a1a7db1b320aac5b981d86988"
+    },
+    "text": "220.20.1 General",
+    "type": "Title"
+  },
+  {
+    "element_id": "afa10b139d28caff3ba93fd9de4e02f0",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            230.2,
+            383.8
+          ],
+          [
+            230.2,
+            408.8
+          ],
+          [
+            1217.0,
+            408.8
+          ],
+          [
+            1217.0,
+            383.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.83915,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "571a097f373beef9401f95fc5c8b3a1f"
+    },
+    "text": "(1) Loading Requirements for Heritage Sites Designated Under the Ontario Heritage Act",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "8c3ca4a7040df53b2c3104b8b830bbf1",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            267.4,
+            420.8
+          ],
+          [
+            267.4,
+            475.7
+          ],
+          [
+            1470.4,
+            475.7
+          ],
+          [
+            1470.4,
+            420.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92257,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "571a097f373beef9401f95fc5c8b3a1f"
+    },
+    "text": "The number of loading spaces required for a designated heritage site, is the lesser of the requirements of Clause 220.5.10.1 or the number of loading spaces that existed on July 20, 1993. [ By-law: 1124-2018 ]",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "0f7e480ce27d5559e189c4608d366bd7",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            229.7,
+            490.8
+          ],
+          [
+            229.7,
+            537.1
+          ],
+          [
+            1465.9,
+            537.1
+          ],
+          [
+            1465.9,
+            490.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92055,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "571a097f373beef9401f95fc5c8b3a1f"
+    },
+    "text": "(2) Loading Requirements for Additions or Alterations to Heritage Sites Designated Under the Ontario Heritage",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "d83b8debc9da2b1af9b0983f2bcf30c5",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            519.5
+          ],
+          [
+            274.7,
+            544.5
+          ],
+          [
+            317.6,
+            544.5
+          ],
+          [
+            317.6,
+            519.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "571a097f373beef9401f95fc5c8b3a1f"
+    },
+    "text": "Act",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "279460e155b9be1148da290af84aaaf5",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            268.2,
+            556.5
+          ],
+          [
+            268.2,
+            639.1
+          ],
+          [
+            1500.6,
+            639.1
+          ],
+          [
+            1500.6,
+            556.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94144,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "571a097f373beef9401f95fc5c8b3a1f"
+    },
+    "text": "For a building on a heritage site, if floor area is added through an addition, alteration or extension, or if existing floor area is replaced, loading spaces must be provided in compliance with this By-law for that added or replaced floor area.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "240eb9ac33657fa6f1ef2c5d28df460e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 362,
+      "parent_id": "571a097f373beef9401f95fc5c8b3a1f"
+    },
+    "text": "341",
+    "type": "UncategorizedText"
+  }
+]

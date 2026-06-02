@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+*.egg
+
+# Node
+node_modules/
+.next/
+dist/
+*.log
+npm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Data assets (keep in repo, but ignore large scratch files)
+*.geojson
+*.shp
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Render/Vercel
+render.yaml.bak

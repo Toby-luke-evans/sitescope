@@ -1,0 +1,3787 @@
+[
+  {
+    "element_id": "599f04f22c3bb7a680c7b28f66c52373",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            539.8,
+            101.6
+          ],
+          [
+            539.8,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            101.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.58348,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 268
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "52ce6b42faac40e56ed803302118919d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            234.9,
+            230.4
+          ],
+          [
+            234.9,
+            260.5
+          ],
+          [
+            447.0,
+            260.5
+          ],
+          [
+            447.0,
+            230.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.37212,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 268,
+      "parent_id": "599f04f22c3bb7a680c7b28f66c52373"
+    },
+    "text": "(1) Waste Storage",
+    "type": "Title"
+  },
+  {
+    "element_id": "402e1e5f754aa75019517ea59c838a92",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            270.1,
+            270.3
+          ],
+          [
+            270.1,
+            327.7
+          ],
+          [
+            1406.3,
+            327.7
+          ],
+          [
+            1406.3,
+            270.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.78301,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 268,
+      "parent_id": "52ce6b42faac40e56ed803302118919d"
+    },
+    "text": "In the IPW zone, all waste and recyclable material must be stored in a wholly enclosed building, if a building is constructed pursuant to a building permit issued more than three years after May 9, 2013.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "10e4fb57e59842b49c5981426ed62578",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 268,
+      "parent_id": "52ce6b42faac40e56ed803302118919d"
+    },
+    "text": "247",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "0d7da6ba596d77c1564d2e83c01dda8a",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            541.0,
+            100.8
+          ],
+          [
+            541.0,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            100.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.58312,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "b8eb522c4f4fb076b73d17af07412937",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            232.0
+          ],
+          [
+            200.0,
+            272.5
+          ],
+          [
+            631.5,
+            272.5
+          ],
+          [
+            631.5,
+            232.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.88626,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0d7da6ba596d77c1564d2e83c01dda8a"
+    },
+    "text": "Chapter 90 Open Space",
+    "type": "Title"
+  },
+  {
+    "element_id": "cb306e7bd496191b5e12054bf6b79ac7",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            199.3,
+            310.9
+          ],
+          [
+            199.3,
+            348.9
+          ],
+          [
+            1170.6,
+            348.9
+          ],
+          [
+            1170.6,
+            310.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.79961,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0d7da6ba596d77c1564d2e83c01dda8a"
+    },
+    "text": "90.5 Regulations Applying to the Open Space Zone Category",
+    "type": "Title"
+  },
+  {
+    "element_id": "29de328c1f168e44c554c0dfa3610d7f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            389.4
+          ],
+          [
+            200.0,
+            418.4
+          ],
+          [
+            396.0,
+            418.4
+          ],
+          [
+            396.0,
+            389.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.83884,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0d7da6ba596d77c1564d2e83c01dda8a"
+    },
+    "text": "90.5.1 General",
+    "type": "Title"
+  },
+  {
+    "element_id": "0b49ddf826686f0c8306920c1a74e2ff",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            460.8
+          ],
+          [
+            200.0,
+            489.4
+          ],
+          [
+            510.4,
+            489.4
+          ],
+          [
+            510.4,
+            460.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.87149,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0d7da6ba596d77c1564d2e83c01dda8a"
+    },
+    "text": "90.5.1.10 Interpretation",
+    "type": "Title"
+  },
+  {
+    "element_id": "87cbbb55018d1b2a9419bfed2b3fe2d7",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            234.8,
+            535.0
+          ],
+          [
+            234.8,
+            561.5
+          ],
+          [
+            757.0,
+            561.5
+          ],
+          [
+            757.0,
+            535.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.76361,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(1) Application of General Regulations Section",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "a42be1eadd31d8e7f6a68791b57e1187",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.7,
+            573.4
+          ],
+          [
+            273.7,
+            627.5
+          ],
+          [
+            1466.9,
+            627.5
+          ],
+          [
+            1466.9,
+            573.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.89042,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "The regulations in Section 90.5 apply to all lands, uses, buildings and structures in the Open Space Zone category.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "64f431efbeb690a1352b870e6e283369",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            641.7
+          ],
+          [
+            235.7,
+            668.5
+          ],
+          [
+            798.6,
+            668.5
+          ],
+          [
+            798.6,
+            641.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.72965,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(2) Interpretation of the Open Space Zone Symbol",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "9fd68a9928c9cd6387aafe145c5f2e28",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            680.8
+          ],
+          [
+            274.7,
+            734.5
+          ],
+          [
+            1429.2,
+            734.5
+          ],
+          [
+            1429.2,
+            680.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92386,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "The zone symbol on the Zoning By-law Map for zones in the Open Space Zone category consists of the letters O, ON, OR, OG, OM or OC, indicating the primary land use permitted in the respective zone.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "9770f76a0484328abea6eb1341b89c5d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            785.7
+          ],
+          [
+            200.0,
+            813.4
+          ],
+          [
+            510.4,
+            813.4
+          ],
+          [
+            510.4,
+            785.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "90.5.20 Permitted Uses",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "3d214baf4eb85ebc23f2422dea93649d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            856.4
+          ],
+          [
+            200.0,
+            884.1
+          ],
+          [
+            434.7,
+            884.1
+          ],
+          [
+            434.7,
+            856.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "90.5.20.1 General",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "7f5be875a10f8d7cf5187d8de679f001",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            230.7,
+            930.4
+          ],
+          [
+            230.7,
+            956.1
+          ],
+          [
+            800.0,
+            956.1
+          ],
+          [
+            800.0,
+            930.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.30182,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(1) Lawfully Existing Public School, Private School",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "c6730a85f3609160ddd74cf704013009",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            966.5
+          ],
+          [
+            274.7,
+            1016.9
+          ],
+          [
+            1482.6,
+            1016.9
+          ],
+          [
+            1482.6,
+            966.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.68861,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "A lawfully existing public school or private school on a lot in the Open Space Zone category is permitted",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "afe121001ac534a961865901810e33ab",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            997.1
+          ],
+          [
+            274.7,
+            1023.4
+          ],
+          [
+            458.3,
+            1023.4
+          ],
+          [
+            458.3,
+            997.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "on that lot, and:",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "1cba7b456930a740f30e377ec5be6b0a",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            298.3,
+            1040.2
+          ],
+          [
+            298.3,
+            1095.4
+          ],
+          [
+            1446.9,
+            1095.4
+          ],
+          [
+            1446.9,
+            1040.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.90524,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(A) any expansion or addition to the lawfully existing public school or private school building must comply with Section 150.48 and the requirements for the zone in which the lot is located; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "69b655808887803d0130eeaa36551234",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.3,
+            1105.6
+          ],
+          [
+            303.3,
+            1161.1
+          ],
+          [
+            1461.0,
+            1161.1
+          ],
+          [
+            1461.0,
+            1105.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.89652,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(B) the lawfully existing public school or private school may be replaced with a new school building that complies with Section 150.48 and the requirements for the zone in which the lot is located.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "36368efaa4a44f497fd457c4f7093920",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1217.4
+          ],
+          [
+            200.0,
+            1245.1
+          ],
+          [
+            737.4,
+            1245.1
+          ],
+          [
+            737.4,
+            1217.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "90.5.40 Principal Building Requirements",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "25968351fa04e1b18e80f7cb7c1a84e6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1288.1
+          ],
+          [
+            200.0,
+            1315.7
+          ],
+          [
+            434.7,
+            1315.7
+          ],
+          [
+            434.7,
+            1288.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "90.5.40.1 General",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "9d4b75126a7dc8034f23f519f66a4c2c",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.4,
+            1362.5
+          ],
+          [
+            235.4,
+            1388.1
+          ],
+          [
+            533.3,
+            1388.1
+          ],
+          [
+            533.3,
+            1362.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.39758,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(1) Building Requirements",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "fa0a451426e8fe3476a386d504d5e20a",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            272.9,
+            1400.0
+          ],
+          [
+            272.9,
+            1426.4
+          ],
+          [
+            1234.1,
+            1426.4
+          ],
+          [
+            1234.1,
+            1400.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.88909,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "Additional building requirements are in each zone in the Open Space Zone category.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "3f6eb8781778a427607265276a0afb50",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1476.4
+          ],
+          [
+            200.0,
+            1504.1
+          ],
+          [
+            433.0,
+            1504.1
+          ],
+          [
+            433.0,
+            1476.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "90.5.40.10 Height",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "6016c21ef13753e1dddb25eeb5b77840",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.3,
+            1549.5
+          ],
+          [
+            235.3,
+            1576.1
+          ],
+          [
+            823.3,
+            1576.1
+          ],
+          [
+            823.3,
+            1549.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.76009,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(1) Determining the Height of Buildings or Structures",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "bb312d8a65de6fbf6c11296dc3ab5429",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1588.1
+          ],
+          [
+            274.7,
+            1643.1
+          ],
+          [
+            1448.5,
+            1643.1
+          ],
+          [
+            1448.5,
+            1588.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.9311,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "In the Open Space Zone category, the height of a building or structure is the distance between average grade and the elevation of the highest point of that building or structure.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "abc4188a0b561421ddf4811ca17bd013",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1658.1
+          ],
+          [
+            235.7,
+            1683.1
+          ],
+          [
+            748.6,
+            1683.1
+          ],
+          [
+            748.6,
+            1658.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(2) Height of Specific Structures on a Building",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "787f1546b56fb421f1f4f348a10b5001",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            268.6,
+            1695.1
+          ],
+          [
+            268.6,
+            1750.1
+          ],
+          [
+            1404.5,
+            1750.1
+          ],
+          [
+            1404.5,
+            1695.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.91758,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "In the Open Space Zone category, the following structures on the roof of a building may exceed the permitted maximum height for that building by:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "62ebf80850ed204e478d71d50de1f908",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.0,
+            1767.1
+          ],
+          [
+            303.0,
+            1792.1
+          ],
+          [
+            512.6,
+            1792.1
+          ],
+          [
+            512.6,
+            1767.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(A) 1.5 metres for:",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "a5c53bb9df4f1d2d8917818f4a28dde1",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            379.3,
+            1810.5
+          ],
+          [
+            379.3,
+            1836.7
+          ],
+          [
+            757.3,
+            1836.7
+          ],
+          [
+            757.3,
+            1810.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(i) parapets for a green roof; and",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "9fa6bef9fd0457c9e7589c2699089c39",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            369.0,
+            1847.8
+          ],
+          [
+            369.0,
+            1872.8
+          ],
+          [
+            615.6,
+            1872.8
+          ],
+          [
+            615.6,
+            1847.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.72706,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(ii) weather vanes; or",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "fc45453c4ff3941a53d0dbfb9997a802",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.0,
+            1891.1
+          ],
+          [
+            303.0,
+            1916.1
+          ],
+          [
+            512.6,
+            1916.1
+          ],
+          [
+            512.6,
+            1891.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(B) 5.0 metres for:",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "a9a31e2ac6c7b062a1aa893bdf7d22e6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            379.3,
+            1934.5
+          ],
+          [
+            379.3,
+            1959.5
+          ],
+          [
+            528.3,
+            1959.5
+          ],
+          [
+            528.3,
+            1934.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.84063,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(i) antennae;",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "63ab542d1a8682b2ee54dc4dd5ff1b8d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 269,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "248",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "db06bfac8e501c2bfaf8a84c0f1d6f87",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            535.5,
+            103.5
+          ],
+          [
+            535.5,
+            187.1
+          ],
+          [
+            1515.4,
+            187.1
+          ],
+          [
+            1515.4,
+            103.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.61448,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "f651a6c50d3fbfb080ed005a377f68b3",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            374.0,
+            241.8
+          ],
+          [
+            374.0,
+            266.8
+          ],
+          [
+            572.6,
+            266.8
+          ],
+          [
+            572.6,
+            241.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.75873,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(ii) flagpoles; and",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "d807f7f65b54d334ff7144f79fc53ee3",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            368.3,
+            278.8
+          ],
+          [
+            368.3,
+            303.8
+          ],
+          [
+            588.0,
+            303.8
+          ],
+          [
+            588.0,
+            278.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.81322,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(iii) satellite dishes.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "8cf3c143d709bfdd6e3ddc5e0f0232e6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            231.4,
+            332.8
+          ],
+          [
+            231.4,
+            357.8
+          ],
+          [
+            912.6,
+            357.8
+          ],
+          [
+            912.6,
+            332.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.8332,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(3) Height of Elements for Functional Operation of a Building",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "42e92210c4140a03ae19c2513869df66",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            264.5,
+            369.8
+          ],
+          [
+            264.5,
+            424.7
+          ],
+          [
+            1454.9,
+            424.7
+          ],
+          [
+            1454.9,
+            369.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93641,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "In the Open Space Zone category, the following equipment and structures on the roof of a building may exceed the permitted maximum height for that building by 5.0 metres, subject to regulation 90.5.40.10(4):",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "3ae5f0e7385f830465277ac6dc6225f4",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            301.2,
+            441.8
+          ],
+          [
+            301.2,
+            495.5
+          ],
+          [
+            1472.3,
+            495.5
+          ],
+          [
+            1472.3,
+            441.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93055,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(A) equipment used for the functional operation of the building, such as electrical, utility, mechanical and ventilation equipment;",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "b6d63f5357ae1826727b86da63397166",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.3,
+            507.8
+          ],
+          [
+            303.3,
+            590.1
+          ],
+          [
+            1486.3,
+            590.1
+          ],
+          [
+            1486.3,
+            507.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94603,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(B) structures or parts of the building used for the functional operation of the building, such as enclosed stairwells, roof access, maintenance equipment storage, elevator shafts, chimneys, vents, and water supply facilities; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "5a417110b77e9bac4949af52f8f7d3a6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            282.6,
+            602.1
+          ],
+          [
+            282.6,
+            628.4
+          ],
+          [
+            1265.1,
+            628.4
+          ],
+          [
+            1265.1,
+            602.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.88835,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(C) structures that enclose, screen or cover the elements listed in (A) and (B) above.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "8ec243db6e6e4b564315a07c8899ae22",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            233.5,
+            649.8
+          ],
+          [
+            233.5,
+            674.8
+          ],
+          [
+            1126.7,
+            674.8
+          ],
+          [
+            1126.7,
+            649.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.87523,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(4) Height - Horizontal Limits on Elements for Functional Operation of a Building",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "9b380d2b7a9459e9385f8c96aa355aca",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            268.4,
+            686.8
+          ],
+          [
+            268.4,
+            741.7
+          ],
+          [
+            1460.8,
+            741.7
+          ],
+          [
+            1460.8,
+            686.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94049,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "In the Open Space Zone category, equipment, structures or parts of a building that exceed the permitted maximum height for a building in regulation 90.5.40.10(3), must comply with the following:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "373b1276adc5078e8c0a96449352f482",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            286.4,
+            758.8
+          ],
+          [
+            286.4,
+            783.8
+          ],
+          [
+            1420.8,
+            783.8
+          ],
+          [
+            1420.8,
+            758.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.77768,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(A) their total area may cover no more than 30% of the area of the roof, measured horizontally; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "ab209d1a31afedcd3e0c736c9381efb4",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            301.8,
+            796.1
+          ],
+          [
+            301.8,
+            879.7
+          ],
+          [
+            1454.0,
+            879.7
+          ],
+          [
+            1454.0,
+            796.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94396,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(B) if located within 6.0 metres of a lot line abutting a street, their total horizontal dimension, measured parallel to the street, may not exceed 20% of the width of the building's main walls facing that street.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "00c28578e1af10db15c63db6d4b5e3c2",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            232.8,
+            900.4
+          ],
+          [
+            232.8,
+            926.1
+          ],
+          [
+            961.3,
+            926.1
+          ],
+          [
+            961.3,
+            900.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86296,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "(5) Height of Rooftop Amenity Space Safety and Wind Protection",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "03eea0a60472e51dbd689b683c9575b4",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            938.1
+          ],
+          [
+            274.7,
+            1021.7
+          ],
+          [
+            1483.8,
+            1021.7
+          ],
+          [
+            1483.8,
+            938.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93448,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0b49ddf826686f0c8306920c1a74e2ff"
+    },
+    "text": "In the Open Space Zone category, unenclosed structures providing safety or wind protection to rooftop amenity space may exceed the permitted maximum height for that building by 3.0 metres, if the structures are no closer than 2.0 metres from the interior face of any main wall.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "1bd31fe08e6dc9a7946e545323595c19",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            199.9,
+            1070.1
+          ],
+          [
+            199.9,
+            1099.4
+          ],
+          [
+            598.3,
+            1099.4
+          ],
+          [
+            598.3,
+            1070.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.91161,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "0d7da6ba596d77c1564d2e83c01dda8a"
+    },
+    "text": "90.5.40.11 Height Exemptions",
+    "type": "Title"
+  },
+  {
+    "element_id": "ec520ce781792208f72e7206224c9b64",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            232.0,
+            1145.6
+          ],
+          [
+            232.0,
+            1171.5
+          ],
+          [
+            804.3,
+            1171.5
+          ],
+          [
+            804.3,
+            1145.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.80248,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "(1) Permitted Height for Lawfully Existing Buildings",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "6dac01226322bea3c2e51f1efdade408",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.0,
+            1183.3
+          ],
+          [
+            273.0,
+            1267.4
+          ],
+          [
+            1488.5,
+            1267.4
+          ],
+          [
+            1488.5,
+            1183.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93709,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "In the Open Space Zone category, if the lawful height of a lawfully existing building or structure is greater than the permitted maximum height for a building or structure, that lawful height is the permitted maximum height for that lawfully existing building or structure.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "3eba645cb8a6ed7759f1d5d25ed1aa19",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.0,
+            1281.9
+          ],
+          [
+            235.0,
+            1307.5
+          ],
+          [
+            712.3,
+            1307.5
+          ],
+          [
+            712.3,
+            1281.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.84853,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "(2) Additions to Lawfully Existing Buildings",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "814389555533d3620d146eb71f106290",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1319.2
+          ],
+          [
+            274.7,
+            1401.8
+          ],
+          [
+            1492.6,
+            1401.8
+          ],
+          [
+            1492.6,
+            1319.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93818,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "Any addition or extension to a lawfully existing building or structure referred to in regulation 90.5.40.11(1) must comply with the permitted maximum height for a building or be authorized by a Section 45 Planning Act minor variance.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "0a6844b8b573cf4fda331899dd756584",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.1,
+            1416.4
+          ],
+          [
+            235.1,
+            1443.1
+          ],
+          [
+            857.0,
+            1443.1
+          ],
+          [
+            857.0,
+            1416.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.83264,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "(3) Alterations to the Roof of Lawfully Existing Buildings",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "ddcb1d059d1c1a26bbc77cd8b07c38aa",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1454.5
+          ],
+          [
+            274.7,
+            1509.1
+          ],
+          [
+            1419.7,
+            1509.1
+          ],
+          [
+            1419.7,
+            1454.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.91191,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "Any alteration to the roof of a lawfully existing building referred to in regulation 90.5.40.11(1) may be constructed to the permitted maximum height in regulation 90.5.40.11(1).",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "e8d6d63d24cbd1907b85f2fa80e2d558",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1560.4
+          ],
+          [
+            200.0,
+            1588.1
+          ],
+          [
+            485.7,
+            1588.1
+          ],
+          [
+            485.7,
+            1560.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "90.5.40.40 Floor Area",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "9fc9aa8a87a56662a5f352c6c393083f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            230.2,
+            1634.2
+          ],
+          [
+            230.2,
+            1660.1
+          ],
+          [
+            615.3,
+            1660.1
+          ],
+          [
+            615.3,
+            1634.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.58469,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "(1) Floor Space Index Calculation",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "8b79cb2b9c00ee00147ca3a50ed74831",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1671.0
+          ],
+          [
+            274.7,
+            1719.2
+          ],
+          [
+            1456.5,
+            1719.2
+          ],
+          [
+            1456.5,
+            1671.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92306,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "In the Open Space Zone category, the floor space index is the result of the gross floor area of a building",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "99213e4e3c08fa0753a9d8d9bea6b7d8",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1700.8
+          ],
+          [
+            274.7,
+            1727.1
+          ],
+          [
+            607.0,
+            1727.1
+          ],
+          [
+            607.0,
+            1700.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "divided by the area of the lot.",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "21e50b75b865c1e9909a8d641add3041",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1777.1
+          ],
+          [
+            200.0,
+            1804.7
+          ],
+          [
+            650.7,
+            1804.7
+          ],
+          [
+            650.7,
+            1777.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "90.5.40.41 Floor Area Exemptions",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "33236fae33cb694464529553388394eb",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1851.8
+          ],
+          [
+            235.7,
+            1876.8
+          ],
+          [
+            922.3,
+            1876.8
+          ],
+          [
+            922.3,
+            1851.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "(1) Permitted Gross Floor Area for Lawfully Existing Buildings",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "7948a40f6fbfcb559397e14b251614d4",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.9,
+            1887.6
+          ],
+          [
+            273.9,
+            1972.7
+          ],
+          [
+            1498.9,
+            1972.7
+          ],
+          [
+            1498.9,
+            1887.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92839,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "In the Open Space Zone category, if the lawful gross floor area of lawfully existing buildings on a lot is greater than the permitted maximum gross floor area, the lawful gross floor area of those lawfully existing buildings is the permitted maximum gross floor area for those lawfully existing buildings on that lot.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "a205100f0bd226e41f0aec7dcbb7dd05",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 270,
+      "parent_id": "1bd31fe08e6dc9a7946e545323595c19"
+    },
+    "text": "249",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "b6eca2e50c20153a2a1433c0bfbd8f87",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            536.7,
+            101.7
+          ],
+          [
+            536.7,
+            187.1
+          ],
+          [
+            1506.9,
+            187.1
+          ],
+          [
+            1506.9,
+            101.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.56681,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271
+    },
+    "text": "By-law 569-2013 as amended Zoning By-law for the City of Toronto Office Consolidation July 31, 2023 including City-wide Amendments up to April 1, 2024",
+    "type": "Header"
+  },
+  {
+    "element_id": "73bec499aecc8f8e64f1951e11b04b2d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            232.3,
+            235.0
+          ],
+          [
+            232.3,
+            260.5
+          ],
+          [
+            934.6,
+            260.5
+          ],
+          [
+            934.6,
+            235.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.73424,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "b6eca2e50c20153a2a1433c0bfbd8f87"
+    },
+    "text": "(2) Permitted Floor Space Index for Lawfully Existing Buildings",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "2ee5277f8697340c5947951aefe40771",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            272.8
+          ],
+          [
+            274.7,
+            385.1
+          ],
+          [
+            1460.6,
+            385.1
+          ],
+          [
+            1460.6,
+            272.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93523,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "b6eca2e50c20153a2a1433c0bfbd8f87"
+    },
+    "text": "In the Open Space Zone category, if the lawful gross floor area of lawfully existing buildings on a lot results in a floor space index greater than the permitted maximum floor space index, the lawful floor space index of those lawfully existing buildings is the permitted maximum floor space index for those lawfully existing buildings on that lot.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "e4f20a8e9318d8b2380ce7d371188ec6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            199.8,
+            433.9
+          ],
+          [
+            199.8,
+            462.7
+          ],
+          [
+            691.0,
+            462.7
+          ],
+          [
+            691.0,
+            433.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.89312,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "b6eca2e50c20153a2a1433c0bfbd8f87"
+    },
+    "text": "90.5.40.60 Permitted Encroachments",
+    "type": "Title"
+  },
+  {
+    "element_id": "c8417ea516ce7a781def1bb9093e2548",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            232.7,
+            509.8
+          ],
+          [
+            232.7,
+            534.8
+          ],
+          [
+            537.3,
+            534.8
+          ],
+          [
+            537.3,
+            509.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.54867,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "e4f20a8e9318d8b2380ce7d371188ec6"
+    },
+    "text": "(1) Canopies and Awnings",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "ac995cbf23dabfbd6ccf45c69dc15dba",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            547.1
+          ],
+          [
+            274.7,
+            630.7
+          ],
+          [
+            1491.9,
+            630.7
+          ],
+          [
+            1491.9,
+            547.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94164,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "e4f20a8e9318d8b2380ce7d371188ec6"
+    },
+    "text": "In the Open Space Zone category, a canopy, awning or similar structure, with or without structural support, may encroach into a required minimum building setback that abuts a street, if no part of the canopy, awning or similar structure is located more than 5.0 metres above the elevation of the ground directly below it.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "24a29654b37426294394d2b625b4996e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            680.7
+          ],
+          [
+            200.0,
+            708.4
+          ],
+          [
+            468.7,
+            708.4
+          ],
+          [
+            468.7,
+            680.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "e4f20a8e9318d8b2380ce7d371188ec6"
+    },
+    "text": "90.5.40.70 Setbacks",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "e3022e7cfee9009957cc189163e47c53",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            231.9,
+            754.6
+          ],
+          [
+            231.9,
+            780.5
+          ],
+          [
+            817.9,
+            780.5
+          ],
+          [
+            817.9,
+            754.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.63928,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "e4f20a8e9318d8b2380ce7d371188ec6"
+    },
+    "text": "(1) Building or Structure to be Set Back from a Lane",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "61e0f35b02f57456f1413439e72dbb1c",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            792.5
+          ],
+          [
+            274.7,
+            840.2
+          ],
+          [
+            1492.3,
+            840.2
+          ],
+          [
+            1492.3,
+            792.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.9345,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "e4f20a8e9318d8b2380ce7d371188ec6"
+    },
+    "text": "A building or structure in the Open Space Zone category may be no closer than 2.5 metres from the original",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "3a66a140cbac40a58112d614f220f486",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            821.1
+          ],
+          [
+            274.7,
+            847.4
+          ],
+          [
+            502.6,
+            847.4
+          ],
+          [
+            502.6,
+            821.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "e4f20a8e9318d8b2380ce7d371188ec6"
+    },
+    "text": "centreline of a lane.",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "f0c1a420fcad53a4e70ea3ba20130311",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            896.5
+          ],
+          [
+            200.0,
+            925.1
+          ],
+          [
+            634.0,
+            925.1
+          ],
+          [
+            634.0,
+            896.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.91008,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "b6eca2e50c20153a2a1433c0bfbd8f87"
+    },
+    "text": "90.5.40.71 Setbacks Exemptions",
+    "type": "Title"
+  },
+  {
+    "element_id": "b8710ee70e45bd1a13820efcaea20834",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            230.2,
+            971.0
+          ],
+          [
+            230.2,
+            997.1
+          ],
+          [
+            834.6,
+            997.1
+          ],
+          [
+            834.6,
+            971.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.65216,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(1) Permitted Setbacks for Lawfully Existing Buildings",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "1822a2bce092998a7a30dcf0faded2fe",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            267.6,
+            1009.3
+          ],
+          [
+            267.6,
+            1064.4
+          ],
+          [
+            1389.6,
+            1064.4
+          ],
+          [
+            1389.6,
+            1009.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92506,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "In the Open Space Zone category, if the lawful building setback of a lawfully existing building or structure is less than the required minimum building setback from:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "1b2c1345d0a3f61c812476e59f172a4f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            300.1,
+            1081.5
+          ],
+          [
+            300.1,
+            1136.4
+          ],
+          [
+            1437.0,
+            1136.4
+          ],
+          [
+            1437.0,
+            1081.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.9258,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(A) a front lot line, that lawful building setback is the required minimum front yard setback for that lawfully existing building or structure;",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "cf0df56dc8333a6d9de7e6e4de0fcea2",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            303.3,
+            1147.1
+          ],
+          [
+            303.3,
+            1202.4
+          ],
+          [
+            1417.6,
+            1202.4
+          ],
+          [
+            1417.6,
+            1147.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93326,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(B) a rear lot line, that lawful building setback is the required minimum rear yard setback for that lawfully existing building or structure; and",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "c710c1e11c780552d249cfa70a6f8215",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            300.4,
+            1213.1
+          ],
+          [
+            300.4,
+            1268.1
+          ],
+          [
+            1423.5,
+            1268.1
+          ],
+          [
+            1423.5,
+            1213.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92948,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(C) a side lot line, that lawful building setback is the required minimum side yard setback for that lawfully existing building or structure.",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "bce53f30aaddcbe9a2a84a849aaa6514",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1289.5
+          ],
+          [
+            235.7,
+            1314.5
+          ],
+          [
+            712.3,
+            1314.5
+          ],
+          [
+            712.3,
+            1289.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(2) Additions to Lawfully Existing Buildings",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "7b09598b62271f521bff208b9c52e5b0",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1325.0
+          ],
+          [
+            274.7,
+            1408.8
+          ],
+          [
+            1480.9,
+            1408.8
+          ],
+          [
+            1480.9,
+            1325.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92262,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "Any addition or extension to a lawfully existing building or structure referred to in regulation 90.5.40.71(1) must comply with the required minimum building setbacks or be authorized by a Section 45 Planning Act minor variance.",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "3791cd3db3cbb6ef576cad794224a6f9",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            233.2,
+            1423.9
+          ],
+          [
+            233.2,
+            1450.1
+          ],
+          [
+            962.6,
+            1450.1
+          ],
+          [
+            962.6,
+            1423.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.85462,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(3) Permitted Setbacks for Lawfully Existing Building from a Lane",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "02d1f98a2d7dde9c07b1d112a10bd05e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1462.1
+          ],
+          [
+            274.7,
+            1567.8
+          ],
+          [
+            1499.3,
+            1567.8
+          ],
+          [
+            1499.3,
+            1462.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.94058,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "In the Open Space Zone category, if the lawful distance of a lawfully existing building or structure from the original centreline of a lane is less than the required minimum distance from the original centreline of the lane, that lawful distance is the minimum distance from the original centreline of the lane for that lawfully existing",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "5e8b3604a97df0629da9036bf0249813",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1548.5
+          ],
+          [
+            274.7,
+            1574.7
+          ],
+          [
+            530.3,
+            1574.7
+          ],
+          [
+            530.3,
+            1548.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "building or structure.",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "585553211ccb344211f4a0decafec14f",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            233.8,
+            1588.8
+          ],
+          [
+            233.8,
+            1614.8
+          ],
+          [
+            998.6,
+            1614.8
+          ],
+          [
+            998.6,
+            1588.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.86765,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "(4) Additions Above Lawfully Existing Buildings in Relation to a Lane",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "3415d116bf56f44c88bcd2b35bf48118",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            273.5,
+            1626.8
+          ],
+          [
+            273.5,
+            1710.4
+          ],
+          [
+            1461.2,
+            1710.4
+          ],
+          [
+            1461.2,
+            1626.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.93591,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "f0c1a420fcad53a4e70ea3ba20130311"
+    },
+    "text": "The required minimum distance from the original centreline of a lane for any addition or extension above a lawfully existing building or structure referred to in regulation 90.5.40.71(3) is the required minimum distance from the original centreline of the lane permitted by regulation 90.5.40.71(3).",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "58bb0fa421d5b95441de7809e4706f4b",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            199.5,
+            1758.7
+          ],
+          [
+            199.5,
+            1788.1
+          ],
+          [
+            569.0,
+            1788.1
+          ],
+          [
+            569.0,
+            1758.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.92412,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "b6eca2e50c20153a2a1433c0bfbd8f87"
+    },
+    "text": "90.5.75 Energy Regulations",
+    "type": "Title"
+  },
+  {
+    "element_id": "43d75cd43c874650ee577ca6424508ac",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            200.0,
+            1831.4
+          ],
+          [
+            200.0,
+            1859.1
+          ],
+          [
+            434.7,
+            1859.1
+          ],
+          [
+            434.7,
+            1831.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "58bb0fa421d5b95441de7809e4706f4b"
+    },
+    "text": "90.5.75.1 General",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "bb5e0835664fb43d062e264651107299",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            235.7,
+            1906.1
+          ],
+          [
+            235.7,
+            1931.1
+          ],
+          [
+            1090.6,
+            1931.1
+          ],
+          [
+            1090.6,
+            1906.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "58bb0fa421d5b95441de7809e4706f4b"
+    },
+    "text": "(1) Renewable Energy or Cogeneration Energy Device - Location Restriction",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "aaf79fd0d6c0b0934fac5a99f5efdac7",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            261.9,
+            1943.1
+          ],
+          [
+            261.9,
+            1991.2
+          ],
+          [
+            1470.3,
+            1991.2
+          ],
+          [
+            1470.3,
+            1943.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "detection_class_prob": 0.91926,
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "58bb0fa421d5b95441de7809e4706f4b"
+    },
+    "text": "In the Open Space Zone category, a device producing renewable energy or cogeneration energy may be",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "b2679da06ae6b386b227f2c124a75c67",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            274.7,
+            1971.8
+          ],
+          [
+            274.7,
+            1998.1
+          ],
+          [
+            737.6,
+            1998.1
+          ],
+          [
+            737.6,
+            1971.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "58bb0fa421d5b95441de7809e4706f4b"
+    },
+    "text": "no closer to a lot line than the greater of:",
+    "type": "UncategorizedText"
+  },
+  {
+    "element_id": "e40c75ca57ddb67c18dd3f4e258bf2e6",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 2200,
+        "layout_width": 1700,
+        "points": [
+          [
+            1450.0,
+            2032.9
+          ],
+          [
+            1450.0,
+            2066.2
+          ],
+          [
+            1508.3,
+            2066.2
+          ],
+          [
+            1508.3,
+            2032.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "A:\\AI\\HB-YOU 2026\\assets",
+      "filename": "97ec-City-Planning-Zoning-Zoning-By-law-Part-1.pdf",
+      "filetype": "application/pdf",
+      "is_extracted": "true",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-03-07T12:35:19",
+      "page_number": 271,
+      "parent_id": "58bb0fa421d5b95441de7809e4706f4b"
+    },
+    "text": "250",
+    "type": "UncategorizedText"
+  }
+]

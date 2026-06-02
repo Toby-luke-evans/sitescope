@@ -1,0 +1,14 @@
+[project]
+name = "spatial-engine"
+version = "0.1.0"
+description = "Shared spatial geometry and CRS utilities."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "shapely>=2.0.0",
+    "pyproj>=3.7.0",
+    "numpy>=2.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

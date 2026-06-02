@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: zoning-report-backend
+    runtime: docker
+    dockerfilePath: apps/zoning-report/backend/Dockerfile
+    repo: https://github.com/Toby-luke-evans/sitescope
+    branch: main
+    plan: free
+    envVars:
+      - key: PYTHONPATH
+        value: /app/apps/zoning-report/backend/app:/app/packages/zoning-core/src:/app/packages/spatial-engine/src
+    regions:
+      - ohio
+    healthCheckPath: /health

@@ -1,0 +1,23 @@
+[project]
+name = "zoning-core"
+version = "0.1.0"
+description = "Shared zoning brain for SiteScope suite tools."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "shapely>=2.0.0",
+    "httpx>=0.28.0",
+    "pydantic>=2.10.0",
+]
+
+[project.optional-dependencies]
+reports = [
+    "reportlab>=4.1",
+]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.25.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

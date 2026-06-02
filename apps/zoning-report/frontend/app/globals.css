@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #090907;
+  --surface: #11100e;
+  --surface-2: #181613;
+  --fg: #efe7dc;
+  --muted: #91887c;
+  --faint: #615a52;
+  --accent: #b18255;
+  --accent-2: #d6aa72;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+}
