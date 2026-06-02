@@ -1,5 +1,5 @@
 // API client for Zoning Report backend
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE = "https://sitescope-zoning-report.onrender.com";
 
 export interface ParcelInfo {
   lat: number;
